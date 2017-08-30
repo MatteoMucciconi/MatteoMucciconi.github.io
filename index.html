@@ -18,6 +18,14 @@
         have anything new you might want to check <a href="http://www.wordreference.com/" target="_blank">this</a>
         or <a href="https://www.japandict.com" target="_blank">this</a> out...
     </p>
+      
+     <?php
+        $query = "SELECT * FROM `mytable`;";
+                $result = mysqli_query($db, $query);
+                while($row = mysqli_fetch_assoc($result)) {
+                      // Display your datas on the page
+                }
+        ?>
 
   </body>
 </html>
