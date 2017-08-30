@@ -12,20 +12,16 @@
   
   <body>
 
-    <h1>This is a Heading</h1>
-    <p> This is a place to have some fun after a tough day of work is over. Start writing some new word in 
+      <h1>This is a Heading</h1>
+      <p> This is a place to have some fun after a tough day of work is over. Start writing some new word in 
         <a href="/englishWords">English</a> or in <a href="/japaneseWords">Japanese</a>. In case you don't 
         have anything new you might want to check <a href="http://www.wordreference.com/" target="_blank">this</a>
         or <a href="https://www.japandict.com" target="_blank">this</a> out...
-    </p>
+      </p>
       
-     <?php
-        $query = "SELECT * FROM `mytable`;";
-                $result = mysqli_query($db, $query);
-                while($row = mysqli_fetch_assoc($result)) {
-                      // Display your datas on the page
-                }
-        ?>
+      <?php
+            echo "My first PHP script!";
+      ?>
 
   </body>
 </html>
