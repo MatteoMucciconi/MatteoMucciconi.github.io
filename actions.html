@@ -19,27 +19,24 @@
     function writeWelcome(){
       return ("Welcome also here " + document.getElementById("FirstName").value);
     }
-   
-    var fileDisplayArea = document.getElementById('fileDisplayArea');
-    function readTextFile(file)
-    {
-      var rawFile = new XMLHttpRequest();
-      rawFile.open("GET", file, false);
-      rawFile.onreadystatechange = function ()
-      {
-        if(rawFile.readyState === 4)
-        {
-            if(rawFile.status === 200 || rawFile.status == 0)
-            {
-                var allText = rawFile.responseText;
-                fileDisplayArea.innerText = allText 
-            }
-        }
-    }
-    rawFile.send(null);
-  }
+    
+    var reader = new FileReader();
 
-  readTextFile("/sample.txt");
+		function readText(that){
+
+			if(that.files && that.files[0]){
+				var reader = new FileReader();
+				reader.onload = function (e) {  
+					var output=e.target.result;
+				
+					//process text to show only lines with "e":				
+					output=output.split("\n").filter(/./.test, /\e/).join("\n");
+
+					document.getElementById('main').innerHTML= output;
+				};//end onload()
+				reader.readAsText(that.files[0]);
+			}//end if html5 filelist support
+		} 
     
   </script>
   
@@ -51,11 +48,9 @@
 
     <label for="FirstName">First Name:</label>
     <input type="text" id="FirstName" name="firstName" placeholder="Your First Name">
-    <button type="submit" onclick="document.getElementById('io').innerHTML = writeWelcome()">Click for a little surprise</button>
+    <button type="submit" onclick="document.getElementById('name').innerHTML = writeWelcome()">Click for a little surprise</button>
     
-    <p id="io"></p>
-    
-    <pre id="fileDisplayArea"><pre>
+    <p id="name"></p>
   
   <h2>My First JavaScript</h2>
 
@@ -64,6 +59,11 @@
     Click me to display Date and Time.</button>
 
   <p id="demo"></p>
+    
+  <input type="file" onchange='readText(this)' />
+	<div id="main"></div>
   
 </body>
 </html>
+  
+ 
