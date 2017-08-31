@@ -5,40 +5,40 @@
 <!-- Include CSS file here -->
 <!-- Include JS file here -->
 <script>
-  function myfunction() {
-    var name = document.getElementById("name").value;
-    if (validation()) // Calling validation function
-      {
-      document.write("bravo"):
-      }
-    else{
-      document.write("something went wrong");  
-      }
-    }
-    // Name and Email validation Function
-    function validation() {
-    var name = document.getElementById("name").value;
-    if (name === '') {
-    return false;
-    } else if (name!='Matteo') {
-    return false;
-    } else {
-    return true;
-    }
-  }
+  function welcome(){
+    var first = document.getElementById("FirstName").value; 
+    var last = document.getElementById("LastName").value;
+    var welcomeF = "Welcome " + first +" "+ last;
+    console.log(welcomeF);
+    window.alert(welcomeF);
+    return false; //To prevent it from going into next page.
+}
 </script>
   
 </head>
 <body>
   
-  <div class="container main">
-    <form id="form_id" method="post" name="myform">
-      <h2>Javascript Set Form Action Example</h2>
-      <label>Name :</label>
-      <input id="name" name="name" placeholder="Name" type="text">
-      <input onclick="myfunction()" type="button" value="Submit">
-    </form>
-  </div>
+  <form  onSubmit = "return welcome();">
+    <h2>Please leave your contact information for us</h2>
+
+    <label for="FirstName">First Name:</label>
+    <input type="text" id="FirstName" name="firstName" placeholder="Your First Name"><br>
+
+    <label for="LastName">Last Name:</label>
+    <input type="text" id="LastName" name="LastName" placeholder="Your last Name"><br>
+
+    <label for="email">E-mail:</label>
+    <input type="e-mail" id="email" name="eMail"><br>
+
+
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="passWord"><br>
+
+    <label for="suGession">sub gesstion:</label><br>
+    <textarea name="suggestion" id="suGession" cols="30" rows="10"></textarea><br><br>
+    <p>What do you usually cook?</p>
+    <input type="text">
+    <button type="submit" >Give Us Help</button>
   
   
   <h2>My First JavaScript</h2>
