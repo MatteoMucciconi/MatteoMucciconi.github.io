@@ -20,13 +20,23 @@
       return ("Welcome also here " + document.getElementById("FirstName").value);
     }
     
-    var reader = new FileReader();
-
-		function readText(that){
-				reader.readAsText(that.files[0]);
-		} 
-    
   </script>
+	
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/mootools/1.6.0/mootools-core.min.js"></script>
+        <script type="text/javascript">
+            //This event is called when the DOM is fully loaded
+            window.addEvent("domready",function(){
+                //Creating a new AJAX request that will request 'test.csv' from the current directory
+                var csvRequest = new Request({
+                    url:"/sample.txt",
+                    onSuccess:function(response){
+                        //The response text is available in the 'response' variable
+                        //Set the value of the textarea with the id 'csvResponse' to the response
+                        $("csvResponse").value = response;
+                    }
+                }).send(); //Don't forget to send our request!
+            });
+        </script>
   
 </head>
 <body>
@@ -42,14 +52,12 @@
   
   <h2>My First JavaScript</h2>
 
-    <button type="button"
-    onclick="document.getElementById('demo').innerHTML = Date()">
-    Click me to display Date and Time.</button>
+    <button type="button" onclick="document.getElementById('demo').innerHTML = Date()"> Click me to display Date and Time.</button>
 
   <p id="demo"></p>
-    
-  <input type="file" onchange='readText(/sample.txt)' />
-	<div id="main"></div>
+	  
+  <textarea rows="5" cols="25" id="csvResponse"></textarea>
+   
   
 </body>
 </html>
