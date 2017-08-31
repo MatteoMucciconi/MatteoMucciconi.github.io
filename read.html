@@ -1,19 +1,19 @@
-
-
-
-<input type='file' accept='text/plain' onchange='openFile(event)'><br>
-<img id='output'>
-
-
-<script>
-  var openFile = function(event) {
-    var input = event.target;
-
-    var reader = new FileReader();
-    reader.onload = function(){
-      var text = reader.result;
-      console.log(reader.result.substring(0, 200));
-    };
-    reader.readAsText(input.files[0]);
-  };
-</script>
+<html>
+  <head>
+    <title>English words</title>
+    <script type="text/javascript">
+      function readXML()
+      {
+        var xml=new XMLHttpRequest();
+        xml.open('GET','/sample.xml',false);
+        xml.send();
+        var xmlData=xml.responseText;
+        document.write(xmlData);
+      }
+    </script>
+  </head>
+  <body>
+    <h1>Click for a new word</h1>
+    <button onclick="readXML()">Read XML File</button>
+  </body>
+</html>
