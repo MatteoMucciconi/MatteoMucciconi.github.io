@@ -19,10 +19,8 @@
     function validation() {
     var name = document.getElementById("name").value;
     if (name === '') {
-    alert("Please fill all fields...!!!!!!");
     return false;
     } else if (name!='Matteo') {
-    alert("Invalid Name...!!!!!!");
     return false;
     } else {
     return true;
@@ -42,13 +40,14 @@
     </form>
   </div>
   
+  
   <h2>My First JavaScript</h2>
 
-<button type="button"
-onclick="document.getElementById('demo').innerHTML = Date()">
-Click me to display Date and Time.</button>
+    <button type="button"
+    onclick="document.getElementById('demo').innerHTML = Date()">
+    Click me to display Date and Time.</button>
 
-<p id="demo"></p>
+  <p id="demo"></p>
   
 </body>
 </html>
