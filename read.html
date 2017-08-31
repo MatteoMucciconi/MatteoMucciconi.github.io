@@ -1,22 +1,19 @@
-<html>
 
-	<head>
-	<title>Reading from text files</title>
-	</head>
-	<body>
-	<%
-	Dim fso, f, filespec
 
-	Set fso = CreateObject("Scripting.FileSystemObject")
-	filespec = Server.Mappath("/sample.txt")
 
-	Set f = fso.OpenTextFile(filespec,1)
+<input type='file' accept='text/plain' onchange='openFile(event)'><br>
+<img id='output'>
 
-	' Read line from the text file and write the contents to the client
 
-	Response.write f.readline 
+<script>
+  var openFile = function(event) {
+    var input = event.target;
 
-	f.Close
-	%>
-	</body>
-	</html>
+    var reader = new FileReader();
+    reader.onload = function(){
+      var text = reader.result;
+      console.log(reader.result.substring(0, 200));
+    };
+    reader.readAsText(input.files[0]);
+  };
+</script>
