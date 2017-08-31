@@ -4,10 +4,43 @@
 <title>Actions</title>
 <!-- Include CSS file here -->
 <!-- Include JS file here -->
+  
+  function myfunction() {
+    var name = document.getElementById("name").value;
+    if (validation()) // Calling validation function
+      {
+      document.getElementById("form_id").action = "success.php"; // Setting form action to "success.php" page
+      document.getElementById("form_id").submit(); // Submitting form
+      }
+    }
+    // Name and Email validation Function
+    function validation() {
+    var name = document.getElementById("name").value;
+    if (name === '') {
+    alert("Please fill all fields...!!!!!!");
+    return false;
+    } else if (name!='Matteo') {
+    alert("Invalid Name...!!!!!!");
+    return false;
+    } else {
+    return true;
+    }
+  }
+  
+  
 </head>
 <body>
   
-<h2>My First JavaScript</h2>
+  <div class="container main">
+    <form id="form_id" method="post" name="myform">
+      <h2>Javascript Set Form Action Example</h2>
+      <label>Name :</label>
+      <input id="name" name="name" placeholder="Name" type="text">
+      <input onclick="myfunction()" type="button" value="Submit">
+    </form>
+  </div>
+  
+  <h2>My First JavaScript</h2>
 
 <button type="button"
 onclick="document.getElementById('demo').innerHTML = Date()">
