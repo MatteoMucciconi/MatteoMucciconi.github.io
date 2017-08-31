@@ -11,7 +11,10 @@
     console.log(welcomeF);
     window.alert(welcomeF);
     return false; //To prevent it from going into next page.
-}
+  }
+  function writeWelcome(){
+    return ("Welcome also here" + document.getElementById("FirstName").value);
+  }
 </script>
   
 </head>
@@ -22,10 +25,9 @@
 
     <label for="FirstName">First Name:</label>
     <input type="text" id="FirstName" name="firstName" placeholder="Your First Name">
-    <button type="submit" onclick="document.getElementById("FirstName").value">Click for a little surprise</button>
+    <button type="submit" onclick="document.getElementById('io').innerHTML = writeWelcome()">Click for a little surprise</button>
     
-    And also welcome here
-    <p id="FirstName"></p>
+    <p id="io"></p>
   
   <h2>My First JavaScript</h2>
 
