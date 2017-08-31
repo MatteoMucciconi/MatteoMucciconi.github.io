@@ -1,21 +1,47 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Actions</title>
-<!-- Include CSS file here -->
-<!-- Include JS file here -->
-<script>
-  function welcome(){
-    var first = document.getElementById("FirstName").value; 
-    var welcomeF = "Welcome " + first;
-    console.log(welcomeF);
-    window.alert(welcomeF);
-    return false; //To prevent it from going into next page.
-  }
-  function writeWelcome(){
-    return ("Welcome also here " + document.getElementById("FirstName").value);
-  }
-</script>
+  
+  <title>Actions</title>
+
+  <!-- Include CSS file here -->
+
+  <!-- Include JS file here -->
+  <script>
+    function welcome(){
+      var first = document.getElementById("FirstName").value; 
+      var welcomeF = "Welcome " + first;
+      console.log(welcomeF);
+      window.alert(welcomeF);
+      return false; //To prevent it from going into next page.
+    }
+
+    function writeWelcome(){
+      return ("Welcome also here " + document.getElementById("FirstName").value);
+    }
+   
+    var fileDisplayArea = document.getElementById('fileDisplayArea');
+function readTextFile(file)
+{
+    var rawFile = new XMLHttpRequest();
+    rawFile.open("GET", file, false);
+    rawFile.onreadystatechange = function ()
+    {
+        if(rawFile.readyState === 4)
+        {
+            if(rawFile.status === 200 || rawFile.status == 0)
+            {
+                var allText = rawFile.responseText;
+                fileDisplayArea.innerText = allText 
+            }
+        }
+    }
+    rawFile.send(null);
+}
+
+readTextFile("/sample.txt");
+    
+  </script>
   
 </head>
 <body>
@@ -28,6 +54,8 @@
     <button type="submit" onclick="document.getElementById('io').innerHTML = writeWelcome()">Click for a little surprise</button>
     
     <p id="io"></p>
+    
+    <pre id="fileDisplayArea"><pre>
   
   <h2>My First JavaScript</h2>
 
