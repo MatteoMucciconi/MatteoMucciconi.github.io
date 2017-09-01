@@ -1,0 +1,22 @@
+{
+  "name": "chat-hand-made",
+  "version": "1.0.0",
+  "description": "Hand made chat for event pubsub",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Chat",
+    "NodeJS",
+    "Socket.io",
+    "EventBroadcast"
+  ],
+  "author": "Srinivasan Kumar",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.10.2",
+    "mongoose": "^4.7.1",
+    "socket.io": "^1.7.1"
+  }
+}
