@@ -5,15 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="grid.css">
-    <title>Grid coloring</title>
+    <title>Young tableaux</title>
   </head>
 
   <body>
 
-    <form id="grid-size-form">
+
+
+<div>
+
+<h2> Create your standard Young tableaux </h2>
+
+<form id="grid-size-form">
       <label for="grid-size">Grid size:</label>
-      <input type="number" id="grid-size" min="1" max="12" value="3">
-      <button type="submit">Create grid</button>
+      <input type="number" id="grid-size" min="1" max="100" value="3">
+      <button type="submit">New grid</button>
     </form>
 
     <table id="grid">
@@ -33,10 +39,9 @@
         <td></td>
       </tr>
     </table>
+    
+</div>
 
-    <br><br>
-
-    <!-- <p id="clicked-cells"></p>  -->
 
 
     <script src="grid.js"></script>
