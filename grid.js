@@ -1,7 +1,20 @@
-// Get a reference to the grid
-var grid = document.querySelector('#grid');
+#grid {
+    border-collapse: collapse;
+    margin: 20px auto;
+}
 
-// Add an event listener to handle clicks on the grid cells
-grid.addEventListener('click', handleClick);
+#grid td {
+    border: 3px solid #ccc;
+    padding: 10px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-style: normal;
+}
 
-// Function to handle clicks on the
+#grid .selected {
+    background-color: #ddd;
+}
