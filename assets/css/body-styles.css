@@ -21,7 +21,7 @@
   
   /* Change body background color */
 body {
-    background-image: url('/images/musk-green.png'); /* Replace the path with the correct path to your image */
+    background-image: url('{{ site.baseurl }}/images/musk-green.png'); /* Replace the path with the correct path to your image */
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
