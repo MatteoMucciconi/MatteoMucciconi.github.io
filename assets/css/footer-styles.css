@@ -1,0 +1,61 @@
+@import 'header-styles.css';  
+  .google-scholar-icon {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 5px;
+  }
+
+  .github-icon {
+    background-color: white;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 5px;
+  }
+
+  .footer-content-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  
+  .footer-description {
+    margin: 0;
+  }
+
+  .footer-wrapper {
+    max-width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .footer-col {
+    flex: 1;
+    flex-basis: 0;
+    flex-grow: 1;
+  }
+
+  .footer-col:first-child {
+    border-right: 1px solid #ccc;
+    padding-right: 20px;
+    margin-right: 20px;
+  }
+
+
+  /* Change footer background color */
+  .site-footer {
+    background-color: #221E1A; /* Replace with your preferred color */
+  }
+
+  footer.site-footer * {
+    color: white !important;
+}
+
+  .footer-col.social-links {
+  flex-grow: 2;
+}

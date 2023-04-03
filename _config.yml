@@ -39,7 +39,7 @@ header_pages:
   - research.markdown
   - travels.markdown
   - teaching.markdown
-  - widgets.markdown
+  - applets.markdown
   - about.markdown
 
 # Exclude from processing.

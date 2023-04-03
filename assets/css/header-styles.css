@@ -1,0 +1,9 @@
+  
+  /* Change header background color */
+  .site-header { 
+    background-color: #221E1A; /* Replace with your preferred color */
+  }
+  header.site-header * {
+    color: white !important;
+}
+

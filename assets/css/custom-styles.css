@@ -1,44 +1,28 @@
-.wrapper {
-    max-width: 65%;
-    margin-left: auto;
-    margin-right: auto;
+@import 'header-styles.css';
+@import 'footer-styles.css';
+@import 'body-styles.css';
+
+
+  
+
+  #young-tableau-applet {
+    max-width: 600px;
+    margin: 0 auto;
   }
   
-  .main {
+  .tableau-row {
     display: flex;
   }
   
-  .google-scholar-icon {
-    width: 20px;
-    height: 20px;
-    display: inline-block;
-    vertical-align: middle;
-    margin: 0 5px;
-  }
-
-  .footer-content-wrapper {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
+  .tableau-cell {
+    width: 30px;
+    height: 30px;
+    border: 1px solid black;
+    margin: 1px;
+    cursor: pointer;
   }
   
-  .footer-description {
-    margin: 0;
-  }
-
-  .footer-wrapper {
-    max-width: 65%;
-    margin-left: auto;
-    margin-right: auto;
+  .tableau-cell.selected {
+    background-color: #ff9c00;
   }
   
-  .footer-col {
-    flex: 1;
-  }
-
-  .footer-col:first-child {
-    border-right: 1px solid #ccc;
-    padding-right: 20px;
-    margin-right: 20px;
-  }
