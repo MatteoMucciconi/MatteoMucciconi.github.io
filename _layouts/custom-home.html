@@ -1,0 +1,40 @@
+---
+layout: default
+---
+<div class="home">
+  {% if page.show_sidebar %}
+  <style>
+    .home {
+      display: flex;
+    }
+
+    .content {
+      flex: 1;
+      padding-right: 2rem;
+    }
+
+    .sidebar {
+      width: 300px;
+      padding-left: 2rem;
+    }
+  </style>
+  
+  <div class="content">
+    {{ content }}
+  </div>
+  <div class="sidebar">
+    <h2>Posts</h2>
+    <ul>
+      {% for post in site.posts %}
+      <li>
+        <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+        <span class="post-date">{{ post.date | date: "%B %d, %Y" }}</span>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+
+  {% else %}
+  {{ content }}
+  {% endif %}
+</div>
