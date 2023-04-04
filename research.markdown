@@ -6,7 +6,6 @@ permalink: /research/
 
 ## Papers
 
-
 <div class="paper">
   <h3 class="paper-title" onclick="toggleAbstract(this)">Relationships between two linearizations of the box-ball system : Kerov-Kirillov-Reschetikhin bijection and slot configuration</h3>
   <p class="paper-authors">M. Mucciconi, M. Sasada, T. Sasamoto, H. Suda</p>
@@ -82,50 +81,6 @@ permalink: /research/
 
 
 <style>
-  .paper-title {
-    cursor: pointer;
-    color: #333;
-    transition: color 0.3s;
-    font-size: 18px !important;
-  }
-
-  .paper-title:hover {
-    color: #007bff;
-  }
-
-  .paper-abstract {
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height 0.5s ease-in-out, padding 0.5s ease-in-out;
-  padding: 0;
-}
-
-.paper-abstract.open {
-  max-height: 1000px; /* Adjust this value based on the length of your abstracts */
-  padding: 1rem 0; /* Add padding to the abstract when it's visible */
-}
-
-.paper-authors {
-  font-size: 14px;
-  font-style: italic;
-  margin: 0;
-}
-
-.paper-journal {
-  font-size: 14px;
-  margin: 0;
-  margin-bottom: 1rem;
-}
-
-.paper {
-  border: 1px solid #ccc; /* Adjust the color and thickness as desired */
-  background-color: #f8f9fa; /* Adjust the background color as desired */
-  padding: 1rem;
-  margin-bottom: 1.5rem;
-}
-
-
-
 
 </style>
 

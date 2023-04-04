@@ -10,7 +10,7 @@
 }
 
 .main-content {
-  background-color: #d0e6eb; /* Change this color to your desired content area background color */
+  background-color: whitesmoke; /* Change this color to your desired content area background color */
   padding: 30px; /* Adjust the padding value as needed */
   opacity: 90%;
   flex: 1;
@@ -36,4 +36,48 @@ body {
   .wrapper {
     max-width: 90%;
   }
+}
+
+
+.paper-title {
+  cursor: pointer;
+  color: #333;
+  transition: color 0.3s;
+  font-size: 18px !important;
+  font-weight: bold;
+}
+
+.paper-title:hover {
+  color: #007bff;
+}
+
+.paper-abstract {
+max-height: 0;
+overflow: hidden;
+transition: max-height 0.5s ease-in-out, padding 0.5s ease-in-out;
+padding: 0;
+}
+
+.paper-abstract.open {
+max-height: 1000px; /* Adjust this value based on the length of your abstracts */
+padding: 1rem 0; /* Add padding to the abstract when it's visible */
+}
+
+.paper-authors {
+font-size: 14px;
+font-style: italic;
+margin: 0;
+}
+
+.paper-journal {
+font-size: 14px;
+margin: 0;
+margin-bottom: 1rem;
+}
+
+.paper {
+border: 1px solid #ccc; /* Adjust the color and thickness as desired */
+background-color: blanchedalmond; /* Adjust the background color as desired */
+padding: 1rem;
+margin-bottom: 1.5rem;
 }
