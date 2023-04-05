@@ -9,11 +9,11 @@ $(document).ready(function () {
   
     $('.grid-item').click(function () {
       if (step === 1) {
-        $(this).toggleClass('yellow');
+        $(this).toggleClass('orange');
         const id = $(this).attr('id');
         shapeY.has(id) ? shapeY.delete(id) : shapeY.add(id);
       } else if (step === 2 && shapeY.has($(this).attr('id'))) {
-        $(this).toggleClass('red');
+        $(this).toggleClass('gray');
         const id = $(this).attr('id');
         shapeYPrime.has(id) ? shapeYPrime.delete(id) : shapeYPrime.add(id);
       } else if (step === 3 && shapeY.has($(this).attr('id')) && !shapeYPrime.has($(this).attr('id'))) {
@@ -41,7 +41,7 @@ $(document).ready(function () {
         }
       
         if (step === 1 && isYoungDiagramResult) {
-          step = 2;
+            step = 2;
         }
       });
   
@@ -55,8 +55,8 @@ $(document).ready(function () {
       }
 
     if (step === 2 && isYoungDiagramResult) {
-      step = 3;
-      shapeW = new Set(shapeYPrime); // Set shapeW equal to shapeYPrime
+        step = 3;
+        shapeW = new Set(shapeYPrime); // Set shapeW equal to shapeYPrime
     }
   });
     
@@ -139,6 +139,8 @@ $(document).ready(function () {
     return tableau;
   }
  
+  
+  
   
   
   

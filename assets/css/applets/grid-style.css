@@ -23,16 +23,12 @@
   user-select: none;
 }
 
-.grid-item:hover {
-  background-color: rgba(255, 255, 0, 0.5);
-  cursor: pointer;
-}
 
-.yellow {
+.orange {
   background-color: orange;
 }
 
-.red {
+.gray {
   background-color: gray;
 }
 
