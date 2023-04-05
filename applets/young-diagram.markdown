@@ -14,13 +14,14 @@ permalink: /applets/young-diagram/
 
 <canvas id="youngDiagram" width="250" height="250"></canvas>
 <button id="selectYoungDiagram">Select Young Diagram</button>
+<div id="partitionResult">This</div>
 
-
-<!--- 
+<!-- 
 <div id="selectedCells"></div>
 <div id="youngDiagramResult"></div>
 <div id="isYoungDiagramResult"></div>
 -->
+
 
 <script>
 const canvas = document.getElementById("youngDiagram");
@@ -29,6 +30,8 @@ const selectedCells = document.getElementById("selectedCells");
 const youngDiagramResult = document.getElementById("youngDiagramResult");
 const isYoungDiagramResult = document.getElementById("isYoungDiagramResult");
 const selectYoungDiagramButton = document.getElementById("selectYoungDiagram");
+const partitionResult = document.getElementById("partitionResult");
+
 
 const gridSize = 10;
 const cellSize = 25;
@@ -73,24 +76,18 @@ canvas.addEventListener("click", (e) => {
 });
 
 function updateSelectedCellsList() {
-    const selected = [];
-
-    for (let i = 0; i < gridSize; i++) {
-        for (let j = 0; j < gridSize; j++) {
-            if (grid[i][j]) {
-                selected.push([i, j]);
-            }
-        }
-    }
-
-    selectedCells.innerHTML = `Selected cells: ${selected.map(cell => `(${cell[0]}, ${cell[1]})`).join(", ")}`;
-
-    const S = youngDiagram(selected);
-    youngDiagramResult.innerHTML = `Young Diagram cells: ${Array.from(S).map(cell => `(${cell})`).join(", ")}`;
+    const selected = getSelectedCells();
 
     const isYoung = isYoungDiagram(selected);
-    isYoungDiagramResult.innerHTML = `Is Young Diagram: ${isYoung}`;
+
+    const partition = fromCellsToPartition(selected);
+    if (partition) {
+        partitionResult.innerHTML = `Partition: (${partition.join(", ")})`;
+    } else {
+        partitionResult.innerHTML = "Partition: Not a Young Diagram";
+    }
 }
+
 
 selectYoungDiagramButton.addEventListener("click", () => {
     const selected = getSelectedCells();
@@ -143,6 +140,25 @@ function getSelectedCells() {
     }
 
     return selected;
+}
+
+function fromCellsToPartition(selectedCells) {
+    if (!isYoungDiagram(selectedCells)) {
+        return null;
+    }
+
+    const rowCounts = {};
+
+    selectedCells.forEach(([row, col]) => {
+        if (!rowCounts[row]) {
+            rowCounts[row] = 0;
+        }
+        rowCounts[row]++;
+    });
+
+    const partition = Object.values(rowCounts);
+
+    return partition;
 }
 
 
