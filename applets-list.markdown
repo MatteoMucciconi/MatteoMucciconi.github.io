@@ -9,3 +9,4 @@ Welcome to the Applets page! Here, you'll find a collection of interactive tools
 ## Algebraic Combinatorics
 
 - [Young Diagram Builder](/applets/young-diagram)
+- [Standard Young Tableau Builder](/applets/skew-young-tableau)

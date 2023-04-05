@@ -1,104 +1,34 @@
 ---
-layout: page
-title: Skew Young Tableau
+layout: default
+title: Young Tableau Applet
 permalink: /applets/skew-young-tableau/
 ---
 
-## Skew Young Tableau Visualization
+## Standard Young Tableau Builder
 
-This applet allows you to visualize a skew Young Tableau based on your input.
+Build a standard Young tableau of generic skew shape.
 
-<div id="young-tableau-applet">
-  <div id="tableau-grid"></div>
-  <button id="check-diagram">Check Diagram</button>
-  <div id="message"></div>
+First select the external shape, then the internal shape and finally label cells of the skew shape.
+
+<link rel="stylesheet" href="/assets/css/applets/grid-style.css">
+
+
+<div class="grid-container">
+  {% for i in (1..10) %}
+    {% for j in (1..10) %}
+      <div class="grid-item" id="{{ i }}-{{ j }}"></div>
+    {% endfor %}
+  {% endfor %}
 </div>
 
-<script>
-  // Generate the 10x10 grid
-  function createGrid() {
-    var grid = document.getElementById('tableau-grid');
-    for (var i = 0; i < 10; i++) {
-      var rowElement = document.createElement('div');
-      rowElement.classList.add('tableau-row');
-      for (var j = 0; j < 10; j++) {
-        var cellElement = document.createElement('div');
-        cellElement.classList.add('tableau-cell');
-        cellElement.dataset.row = i;
-        cellElement.dataset.col = j;
-        cellElement.addEventListener('click', toggleCell);
-        rowElement.appendChild(cellElement);
-      }
-      grid.appendChild(rowElement);
-    }
-  }
 
-  // Toggle cell selection
-  function toggleCell(event) {
-    var cell = event.target;
-    cell.classList.toggle('selected');
-  }
+<button id="button1">Select External Shape</button>
+<button id="button2">Select Internal Shape</button>
+<button id="button3">Build Tableau</button>
 
-  // Check if the selected cells form a Young diagram
-  // Check if the selected cells form a Young diagram
-function checkDiagram() {
-  var selectedCells = document.querySelectorAll('.tableau-cell.selected');
-  var selectedCellsSet = new Set();
-  selectedCells.forEach(function (cell) {
-    var row = parseInt(cell.dataset.row);
-    var col = parseInt(cell.dataset.col);
-    selectedCellsSet.add(`${row}-${col}`);
-  });
+<div id="message-1"></div>
+<div id="message-2"></div>
+<div id="message-3"></div>
 
-  var extDiagram = extYoungDiagram(selectedCellsSet);
-  var youngDiagram = true;
-
-  if (selectedCellsSet.size !== extDiagram.size) {
-    youngDiagram = false;
-  } else {
-    selectedCellsSet.forEach(function (cell) {
-      if (!extDiagram.has(cell)) {
-        youngDiagram = false;
-      }
-    });
-  }
-
-  var message = document.getElementById('message');
-  if (youngDiagram) {
-    message.innerHTML = "This is a Young diagram";
-  } else {
-    message.innerHTML = "This is not a Young diagram";
-  }
-}
-
-function extYoungDiagram(C) {
-  let S = new Set();
-
-  C.forEach((cell) => {
-    const row = parseInt(cell.dataset.row);
-    const col = parseInt(cell.dataset.col);
-
-    for (let i = 0; i <= row; i++) {
-      for (let j = 0; j <= col; j++) {
-        S.add(`${i}-${j}`);
-      }
-    }
-  });
-
-  return S;
-}
-
-
-
-  // Display the message
-  function displayMessage(youngDiagram) {
-    var outputMessage = document.getElementById('output-message');
-    outputMessage.innerHTML = youngDiagram ? "This is a Young diagram." : "This is not a Young diagram.";
-  }
-
-  // Event listeners
-  document.getElementById('check-diagram').addEventListener('click', checkDiagram);
-
-  // Initialize the grid
-  createGrid();
-</script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="/assets/js/young-tableau.js"></script>

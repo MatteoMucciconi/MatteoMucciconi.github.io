@@ -12,9 +12,9 @@ permalink: /applets/young-diagram/
     }
 </style>
 
-<canvas id="youngDiagram" width="250" height="250"></canvas>
+<canvas id="youngDiagram" width="500" height="500"></canvas>
 <button id="selectYoungDiagram">Select Young Diagram</button>
-<div id="partitionResult">This</div>
+<div id="partitionResult"></div>
 
 <!-- 
 <div id="selectedCells"></div>
@@ -34,7 +34,7 @@ const partitionResult = document.getElementById("partitionResult");
 
 
 const gridSize = 10;
-const cellSize = 25;
+const cellSize = 50;
 const cellColor = "gold";
 
 let grid = Array(gridSize).fill(null).map(() => Array(gridSize).fill(false));
