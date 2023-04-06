@@ -2,39 +2,67 @@
 layout: default
 ---
 <div class="home">
-  {% if page.show_sidebar %}
-  <style>
-    .home {
-      display: flex;
-    }
-
-    .content {
-      flex: 1;
-      padding-right: 2rem;
-    }
-
-    .sidebar {
-      width: 300px;
-      padding-left: 2rem;
-    }
-  </style>
-  
   <div class="content">
     {{ content }}
   </div>
-  <div class="sidebar">
-    <h2>Posts</h2>
-    <ul>
-      {% for post in site.posts %}
-      <li>
-        <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-        <span class="post-date">{{ post.date | date: "%B %d" }}</span>
-      </li>
-      {% endfor %}
-    </ul>
-  </div>
 
-  {% else %}
-  {{ content }}
-  {% endif %}
+  <div class="slideshow-container">
+    {% for image in site.data.slideshow %}
+      <div class="mySlides fade">
+        <a href="{{ image.url | relative_url }}">
+          <img src="{{ image.src | relative_url }}" style="width:100%">
+        </a>
+        <div class="text">{{ image.caption }}</div>
+      </div>
+    {% endfor %}
+  </div>
+  <br>
+  <div style="text-align:center">
+    {% for image in site.data.slideshow %}
+    {% capture onclick_call %}currentSlide({{ forloop.index }}){% endcapture %}
+    <span class="dot" onclick="{{ onclick_call }}"></span>    
+    {% endfor %}
+  </div>
 </div>
+
+
+<script>
+  var slideIndex = 1;
+  showSlides(slideIndex);
+
+  function plusSlides(n) {
+    showSlides(slideIndex += n);
+  }
+
+  function currentSlide(n) {
+    showSlides(slideIndex = n);
+  }
+
+  function showSlides(n) {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    if (n > slides.length) {slideIndex = 1}    
+    if (n < 1) {slideIndex = slides.length}
+    for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";  
+    }
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+  }
+
+  // Add automatic sliding
+  function autoSlide() {
+    slideIndex++;
+    showSlides(slideIndex);
+    setTimeout(autoSlide, 5000); // Change image every 5 seconds
+  }
+
+  autoSlide(); // Start the automatic sliding
+</script>
+
+
+

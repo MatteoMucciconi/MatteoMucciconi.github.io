@@ -1,15 +1,10 @@
 
-
-
-
-
-
 .grid-container {
   width: 80%; /* Set a width for the grid container */
   display: grid;
   grid-template-columns: repeat(10, 40px);
   grid-template-rows: repeat(10, 40px);
-  gap: 4px;
+  gap: 6px;
 }
 
 .grid-item {

@@ -1,0 +1,19 @@
+- src: /images/airplane-landing.png
+  caption: Travels
+  url: /travels
+
+- src: /images/math-formulas.png
+  caption: Research
+  url: /research
+
+- src: /images/young-tableau.png
+  caption: Applets
+  url: /applets-list
+
+- src: /images/me.jpg
+  caption: About
+  url: /about
+
+
+
+

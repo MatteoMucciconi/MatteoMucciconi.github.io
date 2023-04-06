@@ -3,26 +3,70 @@
 @import 'body-styles.css';
 
 
-  
-
-  #young-tableau-applet {
-    max-width: 600px;
-    margin: 0 auto;
+  /* Slideshow container */
+.slideshow-container {
+    max-width: 50%;
+    position: relative;
+    margin: auto;
   }
   
-  .tableau-row {
-    display: flex;
+  .mySlides {
+    display: none;
   }
   
-  .tableau-cell {
-    width: 30px;
-    height: 30px;
-    border: 1px solid black;
-    margin: 1px;
+  /* Caption text */
+  .text {
+    color: #f2f2f2;
+    background-color: green;
+    font-size: 15px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    height: 13px;
+    width: 13px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
     cursor: pointer;
   }
   
-  .tableau-cell.selected {
-    background-color: #ff9c00;
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+  
+  /* Fading animation */
+  .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+  
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
   }
   

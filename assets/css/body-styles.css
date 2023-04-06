@@ -26,10 +26,7 @@ body {
   background-attachment: fixed;
 }
 
-.sidebar {
-  width: 30% !important;
-  padding-left: 2rem;
-}
+
 
 /* Media query for mobile devices */
 @media (max-width: 768px) {
