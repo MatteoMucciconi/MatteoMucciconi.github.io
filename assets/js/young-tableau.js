@@ -59,7 +59,7 @@ $(document).ready(function () {
         shapeW = new Set(shapeYPrime); // Set shapeW equal to shapeYPrime
     }
   });
-    
+
   
     $('#button3').click(function () {
         if (step === 3 && labeledCells.size === shapeY.size - shapeYPrime.size) {
