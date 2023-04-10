@@ -7,10 +7,10 @@ createGrid();
 function updateProbabilities() {
     const a = parseFloat(document.getElementById('input-a').value) || 0;
     const b = parseFloat(document.getElementById('input-b').value) || 0;
-    document.getElementById('prob-1-0-1-0').textContent = a;
-    document.getElementById('prob-1-0-0-1').textContent = 1 - a;
-    document.getElementById('prob-0-1-0-1').textContent = b;
-    document.getElementById('prob-0-1-1-0').textContent = 1 - b;
+    document.getElementById('prob-1-0-1-0').textContent = a.toFixed(2);
+    document.getElementById('prob-1-0-0-1').textContent = (1 - a).toFixed(2);
+    document.getElementById('prob-0-1-0-1').textContent = b.toFixed(2);
+    document.getElementById('prob-0-1-1-0').textContent = (1 - b).toFixed(2);
 }
 
 function createGrid() {
