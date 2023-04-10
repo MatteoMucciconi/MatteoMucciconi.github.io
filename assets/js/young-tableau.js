@@ -12,11 +12,11 @@ $(document).ready(function () {
         $(this).toggleClass('orange');
         const id = $(this).attr('id');
         shapeY.has(id) ? shapeY.delete(id) : shapeY.add(id);
-      } else if (step === 2 && shapeY.has($(this).attr('id'))) {
+      } if (step === 2 && shapeY.has($(this).attr('id'))) {
         $(this).toggleClass('gray');
         const id = $(this).attr('id');
         shapeYPrime.has(id) ? shapeYPrime.delete(id) : shapeYPrime.add(id);
-      } else if (step === 3 && shapeY.has($(this).attr('id')) && !shapeYPrime.has($(this).attr('id'))) {
+      } if (step === 3 && shapeY.has($(this).attr('id')) && !shapeYPrime.has($(this).attr('id'))) {
         const id = $(this).attr('id');
         
         if (!$(this).text()) {
