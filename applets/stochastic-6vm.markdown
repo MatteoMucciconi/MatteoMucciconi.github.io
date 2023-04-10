@@ -74,7 +74,12 @@ Below are reported vertex configurations and Bolzmann probability weights. Selec
     <button onclick="startSimulation()">Start simulation</button>
 </div>
 <br>
-<div id="grid-container" class="grid"></div>
+
+<!--- <div id="grid-container" class="grid"></div> --->
+
+<div class="grid-wrapper">
+    <div id="grid-container" class="grid"></div>
+</div>
 
 
 <script src="/assets/js/stochastic-6vm.js"></script>

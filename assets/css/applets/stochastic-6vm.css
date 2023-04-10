@@ -16,7 +16,7 @@ body {
   height: 50px;
   position: relative;
   border: 1px solid #ccc;
-  background-color: white;
+  background-color: rgba(255, 255, 255, 1); /* Set the background color to white with full opacity */
 }
 .edge {
   position: absolute;
@@ -58,6 +58,21 @@ grid {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    width: 600px; /* Set the fixed width for the grid container */
     margin: 0 auto; /* Center the grid container on the page */
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.grid-wrapper {
+    position: relative;
+}
+
+.grid-wrapper::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 1);
+    z-index: -1;
 }

@@ -18,7 +18,8 @@ function createGrid() {
     const gridContainer = document.getElementById('grid-container');
     gridContainer.innerHTML = '';
 
-    const cellSize = (600 - 2 * n) / n; // Calculate the cell size based on the fixed width of the grid container
+    const containerWidth = gridContainer.clientWidth; // Get the available width of the grid container
+    const cellSize = (containerWidth - 2 * n) / n; // Calculate the cell size based on the fixed width of the grid container
 
     for (let row = 0; row < n; row++) {
         const rowDiv = document.createElement('div');
@@ -135,7 +136,8 @@ function renderGrid(gridH, gridV) {
     const gridContainer = document.getElementById('grid-container');
     gridContainer.innerHTML = '';
 
-    const cellSize = (600 - 2 * n) / n; // Calculate the cell size based on the fixed width of the grid container
+    const containerWidth = gridContainer.clientWidth; // Get the available width of the grid container
+    const cellSize = (containerWidth - 2 * n) / n; // Calculate the cell size based on the fixed width of the grid container
     
     for (let row = 0; row < n; row++) {
         const rowDiv = document.createElement('div');
