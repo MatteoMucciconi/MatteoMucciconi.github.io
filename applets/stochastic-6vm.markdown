@@ -60,12 +60,18 @@ Below are reported vertex configurations and Bolzmann probability weights. Selec
     </div>
 </div>
 <br>
-<div>
-    <label for="input-a">a: </label>
-    <input type="number" id="input-a" oninput="updateProbabilities()">
-    <label for="input-b">b: </label>
-    <input type="number" id="input-b" oninput="updateProbabilities()">
+<div class="inputs-container">
+    <div class="input-container">
+        <label for="input-a">a:</label>
+        <input id="input-a" type="range" min="0" max="1" step="0.01" value="0.5" onchange="updateProbabilities()">
+    </div>
+    &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;
+    <div class="input-container">
+        <label for="input-b">b:</label>
+        <input id="input-b" type="range" min="0" max="1" step="0.01" value="0.5" onchange="updateProbabilities()">
+    </div>
 </div>
+
 <br>
 <div>
     <label for="input-n">Grid size: </label>
