@@ -60,3 +60,9 @@
 button {
   margin-top: 10px;
 }
+
+.tableau-cell {
+  display: inline-block;
+  width: 25px; /* adjust this value based on the desired width */
+  text-align: center;
+}

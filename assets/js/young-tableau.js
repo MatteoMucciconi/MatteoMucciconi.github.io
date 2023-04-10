@@ -61,14 +61,40 @@ $(document).ready(function () {
   });
 
   
-    $('#button3').click(function () {
-        if (step === 3 && labeledCells.size === shapeY.size - shapeYPrime.size) {
-            const tableau = createTableauList(shapeY, shapeYPrime, labeledCells);
-            $('#message-3').html(`Standard Young Tableau T:<br>${tableau.map(row => row.join('&nbsp &nbsp')).join('<br>')}`);
-        } else {
-            $('#message-3').text('Label all the cells');
-        }
-    });
+  //  $('#button3').click(function () {
+  //      if (step === 3 && labeledCells.size === shapeY.size - shapeYPrime.size) {
+  //          const tableau = createTableauList(shapeY, shapeYPrime, labeledCells);
+  //          $('#message-3').html(`Standard Young Tableau T:<br>${tableau.map(row => row.join('&nbsp &nbsp')).join('<br>')}`);
+  //      } else {
+  //          $('#message-3').text('Label all the cells');
+  //      }
+  //  });
+
+  $('#button3').click(function () {
+    if (step === 3 && labeledCells.size === shapeY.size - shapeYPrime.size) {
+        const tableau = createTableauList(shapeY, shapeYPrime, labeledCells);
+        const formattedTableau = tableau.map(row => row.map(cell => `<span class="tableau-cell">${cell}</span>`).join('')).join('<br>');
+        $('#message-3').html(`Standard Young Tableau T:<br>${formattedTableau}`);
+    } else {
+        $('#message-3').text('Label all the cells');
+    }
+});
+
+$('#restart').click(function () {
+  // Reset variables
+  shapeY.clear();
+  shapeYPrime.clear();
+  labeledCells.clear();
+  step = 1;
+  labelCounter = 1;
+
+  // Clear grid items and messages
+  $('.grid-item').removeClass('orange gray').text('');
+  $('#message-1').text('');
+  $('#message-2').text('');
+  $('#message-3').text('');
+});
+
   
   });
   

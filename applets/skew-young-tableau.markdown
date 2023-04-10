@@ -25,6 +25,8 @@ First select the external shape, then the internal shape and finally label cells
 <button id="button1">Select External Shape</button>
 <button id="button2">Select Internal Shape</button>
 <button id="button3">Build Tableau</button>
+<button id="restart">Restart</button>
+
 
 <div id="message-1"></div>
 <div id="message-2"></div>
