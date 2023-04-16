@@ -13,7 +13,7 @@ This applet generates the Erdős–Rényi graph G(k,p), that is a random graph w
 
 <script src="https://unpkg.com/cytoscape@3.19.0/dist/cytoscape.min.js"></script>
 
-<link rel="stylesheet" href="/assets/css/applets/crystals-ssyt.css">
+<link rel="stylesheet" href="/assets/css/applets/erdos-renyi.css">
 
 <body>
     <div>
@@ -27,7 +27,7 @@ This applet generates the Erdős–Rényi graph G(k,p), that is a random graph w
     </div>
     <div id="cy"></div>
     <div id="connected-components"></div>
-    <script src="/assets/js/crystals-ssyt.js"></script>
+    <script src="/assets/js/erdos-renyi.js"></script>
 
 </body>
 
