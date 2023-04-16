@@ -8,15 +8,7 @@
   margin: 0 auto;
 }
 
-/*
-.grid-container {
-  width: 80%; 
-  display: grid;
-  grid-template-columns: repeat(10, 40px);
-  grid-template-rows: repeat(10, 40px);
-  gap: 6px;
-}
-*/
+
 
 .grid-item {
   width: calc(100%-10px);
@@ -34,20 +26,6 @@
   padding-top: 100%; /* 1:1 aspect ratio */
   vertical-align: middle;
 }
-
-
-/*
-.grid-item {
-  width: 40px;
-  height: 40px;
-  border: 2px solid black;
-  text-align: center;
-  line-height: 40px;
-  font-family: Arial, sans-serif;
-  font-size: 17px;
-  user-select: none;
-}
-*/
 
 .orange {
   background-color: orange;

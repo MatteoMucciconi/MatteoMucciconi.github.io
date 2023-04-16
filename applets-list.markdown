@@ -15,4 +15,10 @@ Welcome to the Applets page! Here, you'll find a collection of interactive tools
 
 - [Stochastic Six Vertex Model](/applets/stochastic-6vm)
 
+## Random Graphs
+- [Erdős–Rényi Graphs](/applets/erdos-renyi-graph)
+
+
+
+
 If you'd like to propose an applet, please send me an email.
