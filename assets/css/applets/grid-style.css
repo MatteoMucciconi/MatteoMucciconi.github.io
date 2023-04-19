@@ -4,20 +4,34 @@
   grid-template-rows: repeat(10, 1fr);
   gap: 1px;
   width: 100%;
-  max-width: 500px; /* Set a maximum width for the grid container */
+  max-width: 450px;
   margin: 0 auto;
 }
 
-
-
 .grid-item {
-  width: calc(100%-10px);
+  width: 100%;
+  max-width: 40px;
+  position: relative;
   border: 2px solid black;
   text-align: center;
   line-height: 0;
   font-family: Arial, sans-serif;
   font-size: 17px;
   user-select: none;
+}
+
+/* Set a smaller font size for smaller screens */
+@media (max-width: 768px) {
+  .grid-item {
+    font-size: 14px;
+  }
+}
+
+/* Set an even smaller font size for smaller screens */
+@media (max-width: 480px) {
+  .grid-item {
+    font-size: 12px;
+  }
 }
 
 .grid-item::before {
@@ -43,4 +57,13 @@ button {
   display: inline-block;
   width: 25px; /* adjust this value based on the desired width */
   text-align: center;
+}
+
+#tableau-grids-wrapper {
+  display: flex;
+  justify-content: flex-start;
+  gap: 100px; /* Add a gap between the two grid containers */
+  max-width: 500px;
+  margin: 0 auto;
+  width: 100%;
 }
