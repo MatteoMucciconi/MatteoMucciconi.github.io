@@ -7,6 +7,15 @@ permalink: /research/
 ## Papers
 
 <div class="paper">
+  <h3 class="paper-title" onclick="toggleAbstract(this)">Large deviations for the q-deformed polynuclear growth</h3>
+  <p class="paper-authors">S.Das, Y. Liao, M. Mucciconi</p>
+  <p class="paper-journal">arXiv preprint</p>
+  <div class="paper-abstract">
+    <p>In this paper, we study large time large deviations for the height function 𝔥(x,t) of the q-deformed polynuclear growth introduced in ABW22 [arXiv:2108.06018]. We show that the upper-tail deviations have speed t and derive an explicit formula for the rate function Φ+(μ). On the other hand, we show that the lower-tail deviations have speed t2 and express the corresponding rate function Φ−(μ) in terms of a variational problem. Our analysis relies on distributional identities between the height function 𝔥 and two important measures on the set of integer partitions: the Poissonized Plancherel measure and the cylindric Plancherel measure. Following a scheme developed in DT21 [arXiv:1910.09271], we analyze a Fredholm determinant representation for the q-Laplace transform of 𝔥(x,t), from which we extract exact Lyapunov exponents and through inversion the upper-tail rate function Φ+. The proof of the lower-tail large deviation principle is more subtle and requires several novel ideas which combine classical asymptotic results for the Plancherel measure and log-concavity properties of Schur polynomials. Techniques we develop to characterize the lower-tail are rather flexible and have the potential to generalize to other solvable growth models.</p>
+  </div>
+</div>
+
+<div class="paper">
   <h3 class="paper-title" onclick="toggleAbstract(this)">Relationships between two linearizations of the box-ball system : Kerov-Kirillov-Reschetikhin bijection and slot configuration</h3>
   <p class="paper-authors">M. Mucciconi, M. Sasada, T. Sasamoto, H. Suda</p>
   <p class="paper-journal">arXiv preprint</p>
