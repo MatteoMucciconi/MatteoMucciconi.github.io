@@ -36,7 +36,7 @@ permalink: /research/
 <div class="paper">
   <h3 class="paper-title" onclick="toggleAbstract(this)">Skew RSK dynamics: Greene invariants, affine crystals and applications to q-Whittaker polynomials</h3>
   <p class="paper-authors">T. Imamura, M. Mucciconi, T. Sasamoto</p>
-  <p class="paper-journal">arXiv preprint</p>
+  <p class="paper-journal">Forum of Mathematics : Pi (to appear)</p>
   <div class="paper-abstract">
     <p>Iterating the skew RSK correspondence discovered by Sagan and Stanley in the late ’80s, we define a deterministic dynamics on the space of pairs of skew Young tableaux (P,Q). We find that this skew RSK dynamics displays conservation laws which, in the picture of Viennot’s shadow line construction, identify generalizations of Greene invariants. The introduction of a novel realization of 0-th Kashiwara operators reveals that the skew RSK dynamics possesses symmetries induced by an affine bicrystal structure, which, combined with connectedness properties of Demazure crystals, leads to its linearization. Studying asymptotic evolution of the dynamics started from a pair of skew tableaux (P,Q), we discover a new bijection Υ:(P,Q)↦(V,W;κ,ν). Here (V,W) is a pair of vertically strict tableaux, i.e., column strict fillings of Young diagrams with no condition on rows, with shape prescribed by the Greene invariant, κ is an array of non-negative weights and ν is a partition. An application of this construction is the first bijective proof of Cauchy and Littlewood identities involving q-Whittaker polynomials. New identities relating sums of q-Whittaker and Schur polynomials are also presented.</p>
   </div>
