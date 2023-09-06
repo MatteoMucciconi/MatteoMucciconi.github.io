@@ -34,18 +34,17 @@ First select the external shape, then the internal shape and finally label cells
 <div id="message-3"></div>
 <div id="message-4"></div>
 
+<div id="tableau-grids-wrapper">
+  <div id="tableau-t-grid-container" class="grid-container"></div>
+  <div id="tableau-q-grid-container" class="grid-container"></div>
+</div>
+
 <div id="operation-buttons" style="display: none;">
   <button id="iota1">ι₁</button>
   <button id="iota2">ι₂</button>
   <button id="skewRSK">skewRSK</button>
   <button id="restart-dynamics">Restart dynamics</button>
 </div>
-
-<div id="tableau-grids-wrapper">
-  <div id="tableau-t-grid-container" class="grid-container"></div>
-  <div id="tableau-q-grid-container" class="grid-container"></div>
-</div>
-
 
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="/assets/js/young-tableau.js"></script>
