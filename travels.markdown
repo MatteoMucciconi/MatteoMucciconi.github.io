@@ -9,7 +9,7 @@ permalink: /travels/
 ### 2023
 - Sept: Pisa, ITALY. Congresso UMI Pisa 2023 -- [Slides pptx](/extra%20documents/UMI%20talk.pptx)
 - ~~Jul: Lisbon, PORTUGAL. 43rd Conference on Stochastic Processes and their Applications~~
-- Jun: Krun, GERMANY.  Simons Symposium on Solvable Lattice Models and Interacting Particle Systems
+- Jun: Krun, GERMANY.  Simons Symposium on Solvable Lattice Models and Interacting Particle Systems -- [Slides pptx](/extra%20documents/Simons%20presentation%20Mucciconi.pptx)
 - May: Angers, FRANCE. Integrable Probability, Classical and Quantum Integrability
 
 ### 2022
