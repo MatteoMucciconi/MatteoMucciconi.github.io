@@ -7,6 +7,28 @@ permalink: /research/
 ## Papers
 
 <div class="paper">
+  <h3 class="paper-title" onclick="toggleAbstract(this)">Lower tail large deviations of the stochastic six vertex model</h3>
+  <p class="paper-authors">S.Das, Y. Liao, M. Mucciconi</p>
+  <p class="paper-journal">
+    <a href="https://arxiv.org/abs/2407.08530" target="_blank">arXiv preprint</a>
+  </p>
+  <div class="paper-abstract">
+    <p>In this paper, we study lower tail probabilities of the height function 𝔥(M,N) of the stochastic six-vertex model. We introduce a novel combinatorial approach to demonstrate that the tail probabilities ℙ(𝔥(M,N)≥r) are log-concave in a certain weak sense. We prove further that for each α>0 the lower tail of −𝔥(⌊αN⌋,N) satisfies a Large Deviation Principle (LDP) with speed N2 and a rate function Φ(−)α, which is given by the infimal deconvolution between a certain energy integral and a parabola. Our analysis begins with a distributional identity from BO17 [arXiv:1608.01564], which relates the lower tail of the height function, after a random shift, with a multiplicative functional of the Schur measure. Tools from potential theory allow us to extract the LDP for the shifted height function. We then use our weak log-concavity result, along with a deconvolution scheme from our earlier paper [arXiv:2307.01179], to convert the LDP for the shifted height function to the LDP for the stochastic six-vertex model height function.</p>
+  </div>
+</div>
+
+<div class="paper">
+  <h3 class="paper-title" onclick="toggleAbstract(this)">The Symplectic Schur Process</h3>
+  <p class="paper-authors">C. Cuenca, M. Mucciconi</p>
+  <p class="paper-journal">
+    <a href="https://arxiv.org/abs/2407.02415" target="_blank">arXiv preprint</a>
+  </p>
+  <div class="paper-abstract">
+    <p>We define a measure on tuples of partitions, called the symplectic Schur process, that should be regarded as the right analogue of the Schur process of Okounkov-Reshetikhin for the Cartan type C. The weights of our measure include factors that are universal symplectic characters, as well as a novel family of "Down-Up Schur functions" that we define and for which we prove new identities of Cauchy-Littlewood-type. Our main structural result is that the point process corresponding to the symplectic Schur process is determinantal and we find an explicit correlation kernel. We also present dynamics that preserve the family of symplectic Schur processes and explore an alternative sampling scheme, based on the Berele insertion algorithm, in a special case. Finally, we study the asymptotics of the Berele insertion process and find explicit formulas for the limit shape and fluctuations near the bulk and the edge. One of the limit regimes leads to a new kernel that resembles the symmetric Pearcey kernel.</p>
+  </div>
+</div>
+
+<div class="paper">
   <h3 class="paper-title" onclick="toggleAbstract(this)">Large deviations for the q-deformed polynuclear growth</h3>
   <p class="paper-authors">S.Das, Y. Liao, M. Mucciconi</p>
   <p class="paper-journal">

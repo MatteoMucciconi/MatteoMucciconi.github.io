@@ -6,6 +6,14 @@ permalink: /travels/
 
 ## Travels
 
+### 2024
+
+- ~~Aug: Bochum, GERMANY. 11th World Congress in Probability and Statistics, Invited Paper session: (20) Integrable Systems~~
+- Jul: Moved to Singapore.
+- Jul: Edinburgh, SCOTLAND. Probability seminar
+- Jun: Rome, ITALY. 4th italian meeting on Probability and Mathematical Statistics
+- Mar: Durham, ENGLAND. Probability seminar
+
 ### 2023
 - Sept: Pisa, ITALY. Congresso UMI Pisa 2023 -- [Slides pptx](/extra%20documents/UMI%20talk.pptx)
 - ~~Jul: Lisbon, PORTUGAL. 43rd Conference on Stochastic Processes and their Applications~~
