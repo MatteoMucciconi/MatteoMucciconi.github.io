@@ -11,7 +11,7 @@ permalink: /teaching/
   <h3 class="paper-title" onclick="toggleAbstract(this)">Advanced Probability (MA5260)</h3>
   <div class="paper-abstract">
     <p>
-        Content to be announced.
+        In this course, after an introduction to the basics of probaility theory with measure theoretic formalism we will go through multiple foundational results such as the Law of Large Number, the Central Limit Theorem, the study of Large Deviations, Martingales, Markov Chains, Brownian Motion to name a few.
     </p>
   </div>
 </div>
