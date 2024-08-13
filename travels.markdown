@@ -8,7 +8,7 @@ permalink: /travels/
 
 ### 2024
 
-- ~~Aug: Bochum, GERMANY. 11th World Congress in Probability and Statistics, Invited Paper session: (20) Integrable Systems~~
+- Aug: Bochum, GERMANY. 11th World Congress in Probability and Statistics, Invited Paper session: (20) Integrable Systems (joined Online)
 - Jul: Moved to Singapore.
 - Jul: Edinburgh, SCOTLAND. Probability seminar
 - Jun: Rome, ITALY. 4th italian meeting on Probability and Mathematical Statistics
