@@ -21,7 +21,7 @@ permalink: /teaching/
   <h3 class="paper-title" onclick="toggleAbstract(this)">Stochastic Processes and Algorithms (MA5249)</h3>
   <div class="paper-abstract">
     <p>
-        Content to be announced.
+        This graduate level course explores stochastic processes and their applications in algorithms. Topics include: Brownian motion and its properties, diffusion limits of random walks and Donsker’s invariance (statement only) , Ito integrals, Ito formula and Martingale Representation, Stochastic differential equations, Filtering, Diffusions, Feynman Kac formula, Girsanov theorem, Fokker-Planck equation, stationary Gaussian processes, Random fields (Gaussian and Markov) and Gibbs distributions, Markov Chain Monte Carlo, Hidden Markov models, Stochastic Gradient Descent, basics of stochastic approximation.
     </p>
   </div>
 </div>
