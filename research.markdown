@@ -7,6 +7,17 @@ permalink: /research/
 ## Papers
 
 <div class="paper">
+  <h3 class="paper-title" onclick="toggleAbstract(this)">Orthogonality of spin q-Whittaker polynomials</h3>
+  <p class="paper-authors">M. Mucciconi</p>
+  <p class="paper-journal">
+    <a href="https://arxiv.org/abs/2502.00478" target="_blank">arXiv preprint</a>
+  </p>
+  <div class="paper-abstract">
+    <p>The inhomogeneous spin q-Whittaker polynomials are a family of symmetric polynomials which generalize the Macdonald polynomials at t=0. In this paper we prove that they are orthogonal with respect to a variant of the Sklyanin measure on the n dimensional torus and as a result they form a basis of the space of symmetric polynomials in n variables. Instrumental to the proof are inhomogeneous eigenrelations, which partially generalize those of Macdonald polynomials. We also consider several special cases of the inhomogeneous spin q-Whittaker polynomials, which include variants of symmetric Grothendieck polynomials or spin Whittaker functions.</p>
+  </div>
+</div>
+
+<div class="paper">
   <h3 class="paper-title" onclick="toggleAbstract(this)">Lower tail large deviations of the stochastic six vertex model</h3>
   <p class="paper-authors">S.Das, Y. Liao, M. Mucciconi</p>
   <p class="paper-journal">
@@ -43,7 +54,7 @@ permalink: /research/
   <h3 class="paper-title" onclick="toggleAbstract(this)">Relationships between two linearizations of the box-ball system : Kerov-Kirillov-Reschetikhin bijection and slot configuration</h3>
   <p class="paper-authors">M. Mucciconi, M. Sasada, T. Sasamoto, H. Suda</p>
   <p class="paper-journal">
-    <a href="https://www.cambridge.org/core/journals/forum-of-mathematics-sigma/article/relationships-between-two-linearizations-of-the-boxball-system-kerovkirillovreschetikhin-bijection-and-slot-configuration/24D773C52EF01F6C1A4954BA9EA23CE4" target="_blank">Forum of Mathematics, Sigma</a>
+    <a href="https://www.cambridge.org/core/journals/forum-of-mathematics-sigma/article/relationships-between-two-linearizations-of-the-boxball-system-kerovkirillovreschetikhin-bijection-and-slot-configuration/24D773C52EF01F6C1A4954BA9EA23CE4" target="_blank">Forum of Mathematics : Sigma</a>
   </p>
   <div class="paper-abstract">
     <p>The box-ball system (BBS), which was introduced by Takahashi and Satsuma in 1990, is a soliton cellular automaton. Its dynamics can be linearized by a few methods, among which the best known is the Kerov-Kirillov-Reschetikhin (KKR) bijection using rigged partitions. Recently a new linearization method in terms of “slot configurations” was introduced by Ferrari-Nguyen-Rolla-Wang, but its relations to existing ones have not been clarified. In this paper we investigate this issue and clarify the relation between the two linearizations. For this we introduce a novel way of describing the BBS dynamics using a carrier with seat numbers. We show that the seat number configuration also linearizes the BBS and reveals explicit relations between the KKR bijection and the slot configuration. In addition, by using these explicit relations, we also show that even in case of finite carrier capacity the BBS can be linearized via the slot configuration.</p>
@@ -65,7 +76,7 @@ permalink: /research/
   <h3 class="paper-title" onclick="toggleAbstract(this)">Skew RSK dynamics: Greene invariants, affine crystals and applications to q-Whittaker polynomials</h3>
   <p class="paper-authors">T. Imamura, M. Mucciconi, T. Sasamoto</p>
   <p class="paper-journal">
-    <a href="https://www.cambridge.org/core/journals/forum-of-mathematics-pi/article/skew-rsk-dynamics-greene-invariants-affine-crystals-and-applications-to-qwhittaker-polynomials/40AA4466D994D85B2BF1F6549E633F52" target="_blank">Forum of Mathematics, Pi</a>
+    <a href="https://www.cambridge.org/core/journals/forum-of-mathematics-pi/article/skew-rsk-dynamics-greene-invariants-affine-crystals-and-applications-to-qwhittaker-polynomials/40AA4466D994D85B2BF1F6549E633F52" target="_blank">Forum of Mathematics : Pi</a>
   </p>
   <div class="paper-abstract">
     <p>Iterating the skew RSK correspondence discovered by Sagan and Stanley in the late ’80s, we define a deterministic dynamics on the space of pairs of skew Young tableaux (P,Q). We find that this skew RSK dynamics displays conservation laws which, in the picture of Viennot’s shadow line construction, identify generalizations of Greene invariants. The introduction of a novel realization of 0-th Kashiwara operators reveals that the skew RSK dynamics possesses symmetries induced by an affine bicrystal structure, which, combined with connectedness properties of Demazure crystals, leads to its linearization. Studying asymptotic evolution of the dynamics started from a pair of skew tableaux (P,Q), we discover a new bijection Υ:(P,Q)↦(V,W;κ,ν). Here (V,W) is a pair of vertically strict tableaux, i.e., column strict fillings of Young diagrams with no condition on rows, with shape prescribed by the Greene invariant, κ is an array of non-negative weights and ν is a partition. An application of this construction is the first bijective proof of Cauchy and Littlewood identities involving q-Whittaker polynomials. New identities relating sums of q-Whittaker and Schur polynomials are also presented.</p>
@@ -76,7 +87,7 @@ permalink: /research/
   <h3 class="paper-title" onclick="toggleAbstract(this)">Identity between restricted Cauchy sums for the q-Whittaker and skew Schur polynomials</h3>
   <p class="paper-authors">T.Imamura, M. Mucciconi, T.Sasamoto</p>
   <p class="paper-journal">
-    <a href="https://www.emis.de/journals/SIGMA/2024/064/" target="_blank">SIGMA</a>
+    <a href="https://www.emis.de/journals/SIGMA/2024/064/" target="_blank">Symmetry, Integrability and Geometry: Methods and Applications (SIGMA)</a>
   </p>
   <div class="paper-abstract">
     <p>The Cauchy identities play an important role in the theory of symmetric functions. It is known that Cauchy sums for the q-Whittaker and the skew Schur polynomials produce the same factorized expressions modulo a q-Pochhammer symbol. We consider the sums with restrictions on the length of the first rows for labels of both polynomials and prove an identity which relates them. The proof is based on techniques from integrable probability: we rewrite the identity in terms of two probability measures: the q-Whittaker measure and the periodic Schur measure. The relation follows by comparing their Fredholm determinant formulas.</p>
