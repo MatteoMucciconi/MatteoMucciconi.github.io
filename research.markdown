@@ -43,6 +43,7 @@ permalink: /research/
   <h3 class="paper-title" onclick="toggleAbstract(this)">Large deviations for the q-deformed polynuclear growth</h3>
   <p class="paper-authors">S.Das, Y. Liao, M. Mucciconi</p>
   <p class="paper-journal">
+    Annals of Probability (to appear)
     <a href="https://arxiv.org/abs/2307.01179" target="_blank">arXiv preprint</a>
   </p>
   <div class="paper-abstract">
@@ -65,6 +66,7 @@ permalink: /research/
   <h3 class="paper-title" onclick="toggleAbstract(this)">Solvable models in the KPZ class: approach through Periodic and Free Boundary Schur measures</h3>
   <p class="paper-authors">T. Imamura, M. Mucciconi, T. Sasamoto</p>
   <p class="paper-journal">
+    Annals of Probability (to appear)
     <a href="https://arxiv.org/abs/2204.08420" target="_blank">arXiv preprint</a>
   </p>
   <div class="paper-abstract">
