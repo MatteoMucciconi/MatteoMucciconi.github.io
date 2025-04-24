@@ -11,4 +11,4 @@ This is the homepage of my personal website. Here, you can find information abou
 
 Feel free to contact me if you have any questions or need more information.
 
-For more information about doing a PhD at the National University of Singapore see this pamphlet.
+For more information about doing a PhD at the National University of Singapore see [this pamphlet].
