@@ -12,7 +12,7 @@ permalink: /travels/
 - ~~Jul: Wraclow, POLAND. 44th Conference on Stochastic Processes and their Applications~~
 - Jul: Angers, FRANCE. InterPlay between Integrable Probability and Interacting Particle systems
 - Jun: Lyon, FRANCE. Integrability, Random Matrices, and All That
-- May: Cambridge, USA. Program on Classical, quantum, and probabilistic integrable systems – novel interactions and applications. [Video](https://www.youtube.com/watch?v=qcnN1K54juI)
+- May: Cambridge, USA. Program on Classical, quantum, and probabilistic integrable systems – novel interactions and applications. [Video]([https://www.youtube.com/watch?v=qcnN1K54juI])
 - Mar: Pasadena, USA. AIM workshop: All roads to the KPZ universality class
 
 ### 2024
