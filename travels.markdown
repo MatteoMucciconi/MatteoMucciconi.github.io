@@ -6,8 +6,19 @@ permalink: /travels/
 
 ## Travels
 
+### 2025
+
+- Aug: 
+- ~~Jul: Wraclow, POLAND. 44th Conference on Stochastic Processes and their Applications~~
+- Jul: Angers, FRANCE. InterPlay between Integrable Probability and Interacting Particle systems
+- Jun: Lyon, FRANCE. Integrability, Random Matrices, and All That
+- May: Cambridge, USA. Program on Classical, quantum, and probabilistic integrable systems – novel interactions and applications. [Video](https://www.youtube.com/watch?v=qcnN1K54juI)
+- Mar: Pasadena, USA. AIM workshop: All roads to the KPZ universality class
+
 ### 2024
 
+- Dec: Lima, PERU. Sistemas discretos integrables.
+- Oct: Bangalore, INDIA. Discrete integrable systems: difference equations, cluster algebras and probabilistic models.
 - Aug: Bochum, GERMANY. 11th World Congress in Probability and Statistics, Invited Paper session: (20) Integrable Systems (joined Online)
 - Jul: Moved to Singapore.
 - Jul: Edinburgh, SCOTLAND. Probability seminar
