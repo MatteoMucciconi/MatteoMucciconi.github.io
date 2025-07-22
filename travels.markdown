@@ -9,6 +9,7 @@ permalink: /travels/
 ### 2025
 
 - Nov: Kyoto, JAPAN. Rigorous Statistical Mechanics and Related Topics
+- Aug: Krun, GERMANY.  Simons Symposium on Solvable Lattice Models and Interacting Particle Systems
 - Aug: Bangalore, INDIA. Singapore-Bangalore “What is .. ” Workshop
 - ~~Jul: Wraclow, POLAND. 44th Conference on Stochastic Processes and their Applications~~
 - Jul: Angers, FRANCE. InterPlay between Integrable Probability and Interacting Particle systems
