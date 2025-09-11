@@ -21,7 +21,10 @@ permalink: /research/
   <h3 class="paper-title" onclick="toggleAbstract(this)">Lower tail large deviations of the stochastic six vertex model</h3>
   <p class="paper-authors">S.Das, Y. Liao, M. Mucciconi</p>
   <p class="paper-journal">
-    <a href="https://arxiv.org/abs/2407.08530" target="_blank">arXiv preprint</a>
+    <a href="https://academic.oup.com/imrn/article-abstract/2025/18/rnaf276/8250338?utm_source=advanceaccess&utm_campaign=imrn&utm_medium=email" target="_blank">International Mathematics Research Notice</a>
+  </p>
+  <p class="paper-journal">
+    <a href="https://arxiv.org/abs/2407.08530" target="_blank">arXiv</a>
   </p>
   <div class="paper-abstract">
     <p>In this paper, we study lower tail probabilities of the height function 𝔥(M,N) of the stochastic six-vertex model. We introduce a novel combinatorial approach to demonstrate that the tail probabilities ℙ(𝔥(M,N)≥r) are log-concave in a certain weak sense. We prove further that for each α>0 the lower tail of −𝔥(⌊αN⌋,N) satisfies a Large Deviation Principle (LDP) with speed N2 and a rate function Φ(−)α, which is given by the infimal deconvolution between a certain energy integral and a parabola. Our analysis begins with a distributional identity from BO17 [arXiv:1608.01564], which relates the lower tail of the height function, after a random shift, with a multiplicative functional of the Schur measure. Tools from potential theory allow us to extract the LDP for the shifted height function. We then use our weak log-concavity result, along with a deconvolution scheme from our earlier paper [arXiv:2307.01179], to convert the LDP for the shifted height function to the LDP for the stochastic six-vertex model height function.</p>
