@@ -18,7 +18,6 @@ permalink: /research/
                   Q(t,s)=\mathbb{E} \left[ \prod_{i\geq 1} \left(1+ e^{\eta(\lambda_i-i+\frac{1}{2}-s)}\right)^{-1} \right]
       $$
       for fixed $\eta>0$ in the regime $t \to +\infty$ and $s/t=O(1)$. We compute the large-$t$ expansion of $\log Q(t,xt)$ expressing the rate function $\mathcal{F}(x)=− \lim_{t \to \infty} \frac{\log Q(t,xt)}{t^2}$ and the subsequent divergent and oscillatory contributions explicitly in terms of elliptic theta functions. The associated equilibrium measure presents, in general, nontrivial saturated regions and it undergoes two third-order phase transitions of different nature which we describe. Applications of our results include an explicit characterization of tail probabilities of the height function of the $q$-deformed polynuclear growth model and of the edge of the positive-temperature discrete Bessel process and asymptotics of radially symmetric solutions to the 2D~Toda equation with step-like shock initial data.</p>
-  </div>
 
   <figure class="paper-figure">
     <img src="/images/phases equilibrium measure.png"
@@ -27,6 +26,8 @@ permalink: /research/
       The various phases of the  equilibrium measure.
     </figcaption>
   </figure>
+  
+  </div>
   
 </div>
 
