@@ -76,10 +76,10 @@
 }
 
 .paper-figure img {
-  max-width: 30%;
+  max-width: 50%;
   height: auto;
   display: block;
-  margin: 10 auto;
+  margin: 1 auto;
 }
 
 .paper-figure figcaption {
