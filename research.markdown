@@ -13,7 +13,9 @@ permalink: /research/
     <a href="[https://arxiv.org/abs/2502.00478](https://arxiv.org/abs/2601.05164)" target="_blank">arXiv preprint</a>
   </p>
   <div class="paper-abstract">
-    <p>We consider random integer partitions λ that follow the Poissonized Plancherel measure of parameter t^2. Using Riemann--Hilbert techniques, we establish the asymptotics of the multiplicative averages
+    <p>We consider random integer partitions λ that follow the Poissonized Plancherel measure of parameter t^2. Using Riemann--Hilbert techniques, we establish the asymptotics of the multiplicative averages $$
+\int_0^\infty e^{-x^2}\,dx = \frac{\sqrt{\pi}}{2}
+$$
                   Q(t,s)=\mathbb{E} \left[ \prod_{i\geq 1} \left(1+\e^{\eta(\lambda_i-i+\frac{1}{2}-s)}\right)^{-1} \right]
       for fixed η>0 in the regime t→+∞ and s/t=O(1). We compute the large-t expansion of logQ(t,xt) expressing the rate function F(x)=−limt→∞t−2logQ(t,xt) and the subsequent divergent and oscillatory contributions explicitly in terms of elliptic theta functions. The associated equilibrium measure presents, in general, nontrivial saturated regions and it undergoes two third-order phase transitions of different nature which we describe. Applications of our results include an explicit characterization of tail probabilities of the height function of the q-deformed polynuclear growth model and of the edge of the positive-temperature discrete Bessel process and asymptotics of radially symmetric solutions to the 2D~Toda equation with step-like shock initial data.</p>
   </div>
