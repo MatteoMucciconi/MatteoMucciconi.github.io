@@ -21,10 +21,10 @@ permalink: /research/
   </div>
 
   <figure class="paper-figure">
-    <img src="/images/me.jpg"
+    <img src="/images/phases equilibrium measure.png"
          alt="Phase diagram for multiplicative averages of Plancherel partitions">
     <figcaption>
-      Phase diagram showing saturated and liquid regions and third-order phase transitions.
+      The various phases of the  equilibrium measure.
     </figcaption>
   </figure>
   
