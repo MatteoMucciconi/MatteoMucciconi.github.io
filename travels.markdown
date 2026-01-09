@@ -14,6 +14,7 @@ permalink: /travels/
 
 ### 2025
 
+- Dec: Bologna and Trieste, ITALY.
 - Nov: Kyoto, JAPAN. Rigorous Statistical Mechanics and Related Topics
 - Aug: Krun, GERMANY.  Simons Symposium on Solvable Lattice Models and Interacting Particle Systems
 - Aug: Bangalore, INDIA. Singapore-Bangalore “What is .. ” Workshop
