@@ -77,9 +77,9 @@
 
 .paper-figure img {
   max-width: 70%;
+  max-height: 60vh;
   background: white;
   padding: 0.5em;
-
   display: block;      
   margin: 0 auto;     
 }
