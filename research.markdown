@@ -42,7 +42,7 @@ permalink: /research/
     <a href="https://arxiv.org/abs/2407.08530" target="_blank">arXiv</a>
   </p>
   <div class="paper-abstract">
-    <p>In this paper, we study lower tail probabilities of the height function 𝔥(M,N) of the stochastic six-vertex model. We introduce a novel combinatorial approach to demonstrate that the tail probabilities ℙ(𝔥(M,N)≥r) are log-concave in a certain weak sense. We prove further that for each α>0 the lower tail of −𝔥(⌊αN⌋,N) satisfies a Large Deviation Principle (LDP) with speed N2 and a rate function Φ(−)α, which is given by the infimal deconvolution between a certain energy integral and a parabola. Our analysis begins with a distributional identity from BO17 [arXiv:1608.01564], which relates the lower tail of the height function, after a random shift, with a multiplicative functional of the Schur measure. Tools from potential theory allow us to extract the LDP for the shifted height function. We then use our weak log-concavity result, along with a deconvolution scheme from our earlier paper [arXiv:2307.01179], to convert the LDP for the shifted height function to the LDP for the stochastic six-vertex model height function.</p>
+    <p>In this paper, we study lower tail probabilities of the height function $\mathfrak{h}(M,N)$ of the stochastic six-vertex model. We introduce a novel combinatorial approach to demonstrate that the tail probabilities $\mathbb{P}(\mathfrak{h}(M,N) \ge r)$ are log-concave in a certain weak sense. We prove further that for each $\alpha > 0$ the lower tail of $−\mathfrak{h}(\lfloor \alpha N \rfloor,N)$ satisfies a Large Deviation Principle (LDP) with speed $N^2$ and a rate function $ \Phi_-(\alpha) $, which is given by the infimal deconvolution between a certain energy integral and a parabola. Our analysis begins with a distributional identity from [BO17] [arXiv:1608.01564], which relates the lower tail of the height function, after a random shift, with a multiplicative functional of the Schur measure. Tools from potential theory allow us to extract the LDP for the shifted height function. We then use our weak log-concavity result, along with a deconvolution scheme from our earlier paper [arXiv:2307.01179], to convert the LDP for the shifted height function to the LDP for the stochastic six-vertex model height function.</p>
   </div>
 </div>
 
@@ -58,14 +58,14 @@ permalink: /research/
 </div>
 
 <div class="paper">
-  <h3 class="paper-title" onclick="toggleAbstract(this)">Large deviations for the q-deformed polynuclear growth</h3>
+  <h3 class="paper-title" onclick="toggleAbstract(this)">Large deviations for the $q$-deformed polynuclear growth</h3>
   <p class="paper-authors">S.Das, Y. Liao, M. Mucciconi</p>
   <p class="paper-journal">
     Annals of Probability (to appear)
     <a href="https://arxiv.org/abs/2307.01179" target="_blank">arXiv preprint</a>
   </p>
   <div class="paper-abstract">
-    <p>In this paper, we study large time large deviations for the height function 𝔥(x,t) of the q-deformed polynuclear growth introduced in ABW22 [arXiv:2108.06018]. We show that the upper-tail deviations have speed t and derive an explicit formula for the rate function Φ+(μ). On the other hand, we show that the lower-tail deviations have speed t2 and express the corresponding rate function Φ−(μ) in terms of a variational problem. Our analysis relies on distributional identities between the height function 𝔥 and two important measures on the set of integer partitions: the Poissonized Plancherel measure and the cylindric Plancherel measure. Following a scheme developed in DT21 [arXiv:1910.09271], we analyze a Fredholm determinant representation for the q-Laplace transform of 𝔥(x,t), from which we extract exact Lyapunov exponents and through inversion the upper-tail rate function Φ+. The proof of the lower-tail large deviation principle is more subtle and requires several novel ideas which combine classical asymptotic results for the Plancherel measure and log-concavity properties of Schur polynomials. Techniques we develop to characterize the lower-tail are rather flexible and have the potential to generalize to other solvable growth models.</p>
+    <p>In this paper, we study large time large deviations for the height function $\mathfrak{h}(x,t)$ of the $q$-deformed polynuclear growth introduced in [ABW22] [arXiv:2108.06018]. We show that the upper-tail deviations have speed $t$ and derive an explicit formula for the rate function $\Phi_+(\mu)$. On the other hand, we show that the lower-tail deviations have speed $t^2$ and express the corresponding rate function $\Phi_-(\mu)$ in terms of a variational problem. Our analysis relies on distributional identities between the height function 𝔥 and two important measures on the set of integer partitions: the Poissonized Plancherel measure and the cylindric Plancherel measure. Following a scheme developed in [DT21] [arXiv:1910.09271], we analyze a Fredholm determinant representation for the $q$-Laplace transform of $\mathfrak{h}(x,t)$, from which we extract exact Lyapunov exponents and through inversion the upper-tail rate function $\Phi_+$. The proof of the lower-tail large deviation principle is more subtle and requires several novel ideas which combine classical asymptotic results for the Plancherel measure and log-concavity properties of Schur polynomials. Techniques we develop to characterize the lower-tail are rather flexible and have the potential to generalize to other solvable growth models.</p>
   </div>
 </div>
 
@@ -88,12 +88,12 @@ permalink: /research/
     <a href="https://arxiv.org/abs/2204.08420" target="_blank">arXiv preprint</a>
   </p>
   <div class="paper-abstract">
-    <p>We explore probabilistic consequences of correspondences between q-Whittaker measures and periodic and free boundary Schur measures established by the authors in the recent paper [arXiv:2106.11922]. The result is a comprehensive theory of solvability of stochastic models in the KPZ class where exact formulas descend from mapping to explicit determinantal and pfaffian point processes. We discover new variants of known results as determinantal formulas for the current distribution of the ASEP on the line and new results such as Fredholm pfaffian formulas for the distribution of the point-to-point partition function of the Log Gamma polymer model in half space. In the latter case, scaling limits and asymptotic analysis allow to establish Baik-Rains phase transition for height function of the KPZ equation on the half line at the origin.</p>
+    <p>We explore probabilistic consequences of correspondences between $q$-Whittaker measures and periodic and free boundary Schur measures established by the authors in the recent paper [arXiv:2106.11922]. The result is a comprehensive theory of solvability of stochastic models in the KPZ class where exact formulas descend from mapping to explicit determinantal and pfaffian point processes. We discover new variants of known results as determinantal formulas for the current distribution of the ASEP on the line and new results such as Fredholm pfaffian formulas for the distribution of the point-to-point partition function of the Log Gamma polymer model in half space. In the latter case, scaling limits and asymptotic analysis allow to establish Baik-Rains phase transition for height function of the KPZ equation on the half line at the origin.</p>
   </div>
 </div>
 
 <div class="paper">
-  <h3 class="paper-title" onclick="toggleAbstract(this)">Skew RSK dynamics: Greene invariants, affine crystals and applications to q-Whittaker polynomials</h3>
+  <h3 class="paper-title" onclick="toggleAbstract(this)">Skew RSK dynamics: Greene invariants, affine crystals and applications to $q$-Whittaker polynomials</h3>
   <p class="paper-authors">T. Imamura, M. Mucciconi, T. Sasamoto</p>
   <p class="paper-journal">
     <a href="https://www.cambridge.org/core/journals/forum-of-mathematics-pi/article/skew-rsk-dynamics-greene-invariants-affine-crystals-and-applications-to-qwhittaker-polynomials/40AA4466D994D85B2BF1F6549E633F52" target="_blank">Forum of Mathematics : Pi</a>
@@ -115,7 +115,7 @@ permalink: /research/
 </div>
 
 <div class="paper">
-  <h3 class="paper-title" onclick="toggleAbstract(this)">Spin q-Whittaker polynomials and deformed quantum Toda</h3>
+  <h3 class="paper-title" onclick="toggleAbstract(this)">Spin $q$-Whittaker polynomials and deformed quantum Toda</h3>
   <p class="paper-authors">M. Mucciconi, L.Petrov</p>
   <p class="paper-journal">
     <a href="https://link.springer.com/article/10.1007/s00220-021-04279-5" target="_blank">Communications in Mathematical Physics</a>
@@ -164,7 +164,7 @@ permalink: /research/
 </div>
 
 <div class="paper">
-  <h3 class="paper-title" onclick="toggleAbstract(this)">Determinantal structures in the q-Whittaker measure</h3>
+  <h3 class="paper-title" onclick="toggleAbstract(this)">Determinantal structures in the $q$-Whittaker measure</h3>
   <p class="paper-authors">T.Imamura, M. Mucciconi, T.Sasamoto</p>
   <p class="paper-journal">
     <a href="https://projecteuclid.org/proceedings/advanced-studies-in-pure-mathematics/Stochastic-Analysis-Random-Fields-and-Integrable-Probability--Fukuoka-2019/Chapter/Determinantal-structures-in-the-q-Whittaker-measure/10.2969/aspm/08710261" target="_blank">JStochastic Analysis, Random Fields and Integrable Probability—Fukuoka 2019</a>
