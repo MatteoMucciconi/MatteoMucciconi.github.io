@@ -17,7 +17,7 @@ permalink: /research/
       $$
                   Q(t,s)=\mathbb{E} \left[ \prod_{i\geq 1} \left(1+\e^{\eta(\lambda_i-i+\frac{1}{2}-s)}\right)^{-1} \right]
       $$
-      for fixed η>0 in the regime t→+∞ and s/t=O(1). We compute the large-t expansion of logQ(t,xt) expressing the rate function F(x)=−limt→∞t−2logQ(t,xt) and the subsequent divergent and oscillatory contributions explicitly in terms of elliptic theta functions. The associated equilibrium measure presents, in general, nontrivial saturated regions and it undergoes two third-order phase transitions of different nature which we describe. Applications of our results include an explicit characterization of tail probabilities of the height function of the q-deformed polynuclear growth model and of the edge of the positive-temperature discrete Bessel process and asymptotics of radially symmetric solutions to the 2D~Toda equation with step-like shock initial data.</p>
+      for fixed $\eta>0$ in the regime $t \to +\infty$ and $s/t=O(1)$. We compute the large-$t$ expansion of $logQ(t,xt)$ expressing the rate function $\mathcal{F}(x)=− \lim_{t \to \infty} \frac{logQ(t,xt)}{t^2}$ and the subsequent divergent and oscillatory contributions explicitly in terms of elliptic theta functions. The associated equilibrium measure presents, in general, nontrivial saturated regions and it undergoes two third-order phase transitions of different nature which we describe. Applications of our results include an explicit characterization of tail probabilities of the height function of the $q$-deformed polynuclear growth model and of the edge of the positive-temperature discrete Bessel process and asymptotics of radially symmetric solutions to the 2D~Toda equation with step-like shock initial data.</p>
   </div>
 </div>
 
@@ -28,7 +28,7 @@ permalink: /research/
     <a href="https://arxiv.org/abs/2502.00478" target="_blank">arXiv preprint</a>
   </p>
   <div class="paper-abstract">
-    <p>The inhomogeneous spin q-Whittaker polynomials are a family of symmetric polynomials which generalize the Macdonald polynomials at t=0. In this paper we prove that they are orthogonal with respect to a variant of the Sklyanin measure on the n dimensional torus and as a result they form a basis of the space of symmetric polynomials in n variables. Instrumental to the proof are inhomogeneous eigenrelations, which partially generalize those of Macdonald polynomials. We also consider several special cases of the inhomogeneous spin q-Whittaker polynomials, which include variants of symmetric Grothendieck polynomials or spin Whittaker functions.</p>
+    <p>The inhomogeneous spin $q$-Whittaker polynomials are a family of symmetric polynomials which generalize the Macdonald polynomials at $t=0$. In this paper we prove that they are orthogonal with respect to a variant of the Sklyanin measure on the n dimensional torus and as a result they form a basis of the space of symmetric polynomials in n variables. Instrumental to the proof are inhomogeneous eigenrelations, which partially generalize those of Macdonald polynomials. We also consider several special cases of the inhomogeneous spin $q$-Whittaker polynomials, which include variants of symmetric Grothendieck polynomials or spin Whittaker functions.</p>
   </div>
 </div>
 
