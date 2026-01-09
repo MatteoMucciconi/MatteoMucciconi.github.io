@@ -79,7 +79,11 @@
   max-width: 70%;
   background: white;
   padding: 0.5em;
+
+  display: block;      
+  margin: 0 auto;     
 }
+
 
 .paper-figure figcaption {
   font-size: 0.8em;
