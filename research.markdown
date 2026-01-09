@@ -10,7 +10,7 @@ permalink: /research/
   <h3 class="paper-title" onclick="toggleAbstract(this)">Multiplicative Averages of Plancherel Random Partitions: Elliptic Functions, Phase Transitions, and Applications</h3>
   <p class="paper-authors">M. Cafasso, M. Mucciconi, G. Ruzza</p>
   <p class="paper-journal">
-    <a href="[https://arxiv.org/abs/2601.05164](https://arxiv.org/abs/2601.05164)" target="_blank">arXiv preprint</a>
+    <a href="https://arxiv.org/abs/2601.05164" target="_blank">arXiv preprint</a>
   </p>
   <div class="paper-abstract">
     <p>We consider random integer partitions $\lambda$ that follow the Poissonized Plancherel measure of parameter $t^2$. Using Riemann--Hilbert techniques, we establish the asymptotics of the multiplicative averages
