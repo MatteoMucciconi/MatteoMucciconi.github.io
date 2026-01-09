@@ -4,6 +4,28 @@ title: Teaching
 permalink: /teaching/
 ---
 
+## 2025/2026. National University of Singapore
+
+<div class="paper">
+  <h3 class="paper-title" onclick="toggleAbstract(this)">Advanced Probability (MA5260)</h3>
+  <div class="paper-abstract">
+    <p>
+        In this course, after an introduction to the basics of probaility theory with measure theoretic formalism we will go through multiple foundational results such as the Law of Large Number, the Central Limit Theorem, the study of Large Deviations, Martingales, Markov Chains, Brownian Motion to name a few.
+    </p>
+  </div>
+</div>
+
+
+<div class="paper">
+  <h3 class="paper-title" onclick="toggleAbstract(this)">Stochastic Processes I (MA3238S)</h3>
+  <div class="paper-abstract">
+    <p>
+        In this course we will study discrete stochastic processes: random walks, martingales, Markov chains, graphs and more.
+    </p>
+  </div>
+</div>
+
+<p style="margin-bottom: 2em;"></p>
 
 ## 2024/2025. National University of Singapore
 
