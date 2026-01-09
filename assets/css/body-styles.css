@@ -56,7 +56,7 @@ padding: 0;
 }
 
 .paper-abstract.open {
-max-height: 1000px; /* Adjust this value based on the length of your abstracts */
+max-height: 10000px; /* Adjust this value based on the length of your abstracts */
 padding: 1rem 0; /* Add padding to the abstract when it's visible */
 }
 
