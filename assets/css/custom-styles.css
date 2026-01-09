@@ -71,15 +71,14 @@
   }
   
 .paper-figure {
-  margin: 1.5em auto 0 auto;
+  margin-top: 1.5em;
   text-align: center;
 }
 
 .paper-figure img {
-  max-width: 60%;
-  height: auto;
-  display: block;
-  margin: 1 auto;
+  max-width: 70%;
+  background: white;
+  padding: 0.5em;
 }
 
 .paper-figure figcaption {
