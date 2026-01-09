@@ -71,19 +71,19 @@
   }
   
 .paper-figure {
-  margin: 1.5em auto 0 auto;
+  margin: 10.5em auto 0 auto;
   text-align: center;
 }
 
 .paper-figure img {
-  max-width: 50%;
+  max-width: 90%;
   height: auto;
   display: block;
   margin: 0 auto;
 }
 
 .paper-figure figcaption {
-  font-size: 0.9em;
+  font-size: 0.8em;
   color: #555;
   margin-top: 0.5em;
 }
