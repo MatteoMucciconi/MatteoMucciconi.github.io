@@ -19,6 +19,15 @@ permalink: /research/
       $$
       for fixed $\eta>0$ in the regime $t \to +\infty$ and $s/t=O(1)$. We compute the large-$t$ expansion of $\log Q(t,xt)$ expressing the rate function $\mathcal{F}(x)=− \lim_{t \to \infty} \frac{\log Q(t,xt)}{t^2}$ and the subsequent divergent and oscillatory contributions explicitly in terms of elliptic theta functions. The associated equilibrium measure presents, in general, nontrivial saturated regions and it undergoes two third-order phase transitions of different nature which we describe. Applications of our results include an explicit characterization of tail probabilities of the height function of the $q$-deformed polynuclear growth model and of the edge of the positive-temperature discrete Bessel process and asymptotics of radially symmetric solutions to the 2D~Toda equation with step-like shock initial data.</p>
   </div>
+
+  <figure class="paper-figure">
+    <img src="/images/me.jpg"
+         alt="Phase diagram for multiplicative averages of Plancherel partitions">
+    <figcaption>
+      Phase diagram showing saturated and liquid regions and third-order phase transitions.
+    </figcaption>
+  </figure>
+  
 </div>
 
 <div class="paper">
@@ -186,6 +195,24 @@ permalink: /research/
 
 
 <style>
+
+  .paper-figure {
+  margin: 1.5em auto 0 auto;
+  text-align: center;
+}
+
+.paper-figure img {
+  max-width: 90%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.paper-figure figcaption {
+  font-size: 0.9em;
+  color: #555;
+  margin-top: 0.5em;
+}
 
 </style>
 
