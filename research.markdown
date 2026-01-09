@@ -64,6 +64,14 @@ permalink: /research/
   </p>
   <div class="paper-abstract">
     <p>We define a measure on tuples of partitions, called the symplectic Schur process, that should be regarded as the right analogue of the Schur process of Okounkov-Reshetikhin for the Cartan type C. The weights of our measure include factors that are universal symplectic characters, as well as a novel family of "Down-Up Schur functions" that we define and for which we prove new identities of Cauchy-Littlewood-type. Our main structural result is that the point process corresponding to the symplectic Schur process is determinantal and we find an explicit correlation kernel. We also present dynamics that preserve the family of symplectic Schur processes and explore an alternative sampling scheme, based on the Berele insertion algorithm, in a special case. Finally, we study the asymptotics of the Berele insertion process and find explicit formulas for the limit shape and fluctuations near the bulk and the edge. One of the limit regimes leads to a new kernel that resembles the symmetric Pearcey kernel.</p>
+
+    <figure class="paper-figure">
+    <img src="/images/symplectic_Schur_process.png"
+         alt="A sample of the Symplectic Schur Process">
+    <figcaption>
+      A sample of the Symplectic Schur Process.
+    </figcaption>
+  </figure>
   </div>
 </div>
 
