@@ -196,23 +196,5 @@ permalink: /research/
 
 <style>
 
-  .paper-figure {
-  margin: 1.5em auto 0 auto;
-  text-align: center;
-}
-
-.paper-figure img {
-  max-width: 90%;
-  height: auto;
-  display: block;
-  margin: 0 auto;
-}
-
-.paper-figure figcaption {
-  font-size: 0.9em;
-  color: #555;
-  margin-top: 0.5em;
-}
-
 </style>
 
