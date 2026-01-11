@@ -143,6 +143,10 @@ permalink: /research/
   <p class="paper-journal">
     <a href="https://link.springer.com/article/10.1007/s00220-021-04279-5" target="_blank">Communications in Mathematical Physics</a>
   </p>
+  <p class="paper-journal">
+    <a href="https://arxiv.org/abs/2003.14260" target="_blank">arXiv</a>
+  </p>
+  
   <div class="paper-abstract">
     <p>Spin $q$-Whittaker symmetric polynomials labeled by partitions $\lambda$ were recently introduced by Borodin and Wheeler (arXiv:1701.06292) in the context of integrable $\mathfrak{sl}_2$ vertex models. They are a one-parameter deformation of the $t=0$ Macdonald polynomials. We present a new more convenient modification of spin $q$-Whittaker polynomials and find two Macdonald type $q$-difference operators acting diagonally in these polynomials with eigenvalues, respectively, $q^{(-\lambda_1)}$ and $q^{(\lambda_N)}$ (where $\lambda$ is the polynomial’s label). We study probability measures on interlacing arrays based on spin $q$-Whittaker polynomials, and match their observables with known stochastic particle systems such as the $q$-Hahn TASEP. In a scaling limit as $q \to 1$, spin $q$-Whittaker polynomials turn into a new one-parameter deformation of the $\mathfrak{gl}_n$ Whittaker functions. The rescaled Pieri type rule gives rise to a one-parameter deformation of the quantum Toda Hamiltonian. The deformed Hamiltonian acts diagonally on our new spin Whittaker functions. On the stochastic side, as $q \to 1$ we discover a multilevel extension of the beta polymer model of Barraquand and Corwin (arXiv:1503.04117), and relate it to spin Whittaker functions.</p>
   </div>
