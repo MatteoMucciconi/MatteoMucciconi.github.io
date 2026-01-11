@@ -106,6 +106,8 @@ permalink: /research/
   <p class="paper-authors">T. Imamura, M. Mucciconi, T. Sasamoto</p>
   <p class="paper-journal">
     Annals of Probability (to appear)
+  </p>
+  <p class="paper-journal">
     <a href="https://arxiv.org/abs/2204.08420" target="_blank">arXiv preprint</a>
   </p>
   <div class="paper-abstract">
