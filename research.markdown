@@ -78,9 +78,12 @@ permalink: /research/
 <div class="paper">
   <h3 class="paper-title" onclick="toggleAbstract(this)">Large deviations for the $q$-deformed polynuclear growth</h3>
   <p class="paper-authors">S.Das, Y. Liao, M. Mucciconi</p>
+
   <p class="paper-journal">
-    Annals of Probability (to appear)
-    <a href="https://arxiv.org/abs/2307.01179" target="_blank">arXiv preprint</a>
+    <a href="https://projecteuclid.org/journals/annals-of-probability/volume-53/issue-4/Large-deviations-for-the-q-deformed-polynuclear-growth/10.1214/24-AOP1733.short" target="_blank">Annals of Probability</a>
+  </p>
+  <p class="paper-journal">
+    <a href="https://arxiv.org/abs/2307.01179" target="_blank">arXiv</a>
   </p>
   <div class="paper-abstract">
     <p>In this paper, we study large time large deviations for the height function $\mathfrak{h}(x,t)$ of the $q$-deformed polynuclear growth introduced in [ABW22] [arXiv:2108.06018]. We show that the upper-tail deviations have speed $t$ and derive an explicit formula for the rate function $\Phi_+(\mu)$. On the other hand, we show that the lower-tail deviations have speed $t^2$ and express the corresponding rate function $\Phi_-(\mu)$ in terms of a variational problem. Our analysis relies on distributional identities between the height function 𝔥 and two important measures on the set of integer partitions: the Poissonized Plancherel measure and the cylindric Plancherel measure. Following a scheme developed in [DT21] [arXiv:1910.09271], we analyze a Fredholm determinant representation for the $q$-Laplace transform of $\mathfrak{h}(x,t)$, from which we extract exact Lyapunov exponents and through inversion the upper-tail rate function $\Phi_+$. The proof of the lower-tail large deviation principle is more subtle and requires several novel ideas which combine classical asymptotic results for the Plancherel measure and log-concavity properties of Schur polynomials. Techniques we develop to characterize the lower-tail are rather flexible and have the potential to generalize to other solvable growth models.</p>
