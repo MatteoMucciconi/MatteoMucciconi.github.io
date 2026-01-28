@@ -10,7 +10,7 @@ permalink: /seminars/
 
 Jan 21st: Introduction. Notes.
 
-Jan 28th: The Gaussian Unitary Ensemble. [Notes](extra documents/Line ensemble-2.pdf)
+Jan 28th: The Gaussian Unitary Ensemble. [Notes](/extra%20documents/Line%20ensemble-2.pdf)
 
 Feb 4th
 
