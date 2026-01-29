@@ -82,21 +82,19 @@ permalink: /teaching/
           target="_blank"
           rel="noopener noreferrer">Notes</a>
 
-        <figure class="small-figure">
-          <img src="/images/iceModel200.png"
-            alt="Phase diagram for multiplicative averages of Plancherel partitions">
-            <figcaption>
-              A sample of the ice model.
-            </figcaption>
-        </figure>
+        <div class="figure-row">
+          <figure class="small-figure">
+            <img src="/images/iceModel200.png"
+             alt="Phase diagram for multiplicative averages of Plancherel partitions">
+            <figcaption>A sample of the ice model.</figcaption>
+          </figure>
 
-        <figure class="small-figure">
-          <img src="/images/iceModel200.png"
-            alt="Phase diagram for multiplicative averages of Plancherel partitions">
-            <figcaption>
-              A close up on the boundary of the frozen-liquid interface.
-            </figcaption>
-        </figure>
+          <figure class="small-figure">
+            <img src="/images/iceModel200.png"
+              alt="Phase diagram for multiplicative averages of Plancherel partitions">
+              <figcaption>A close up on the boundary of the frozen-liquid interface.</figcaption>
+            </figure>
+        </div>
         
       </li>
 
