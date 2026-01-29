@@ -110,7 +110,7 @@ permalink: /teaching/
           <figure class="small-figure">
             <img src="/images/semicircle%20GUE.png"
              alt="Semicircle law GUE">
-            <figcaption>A screenshot from representing the semicircle law.</figcaption>
+            <figcaption>A screenshot from the "Random Matrix Theory" by J. Keating and J.P. Arguin representing the semicircle law.</figcaption>
           </figure>
         </div>
       </li>
