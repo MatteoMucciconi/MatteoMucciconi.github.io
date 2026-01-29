@@ -81,6 +81,14 @@ permalink: /teaching/
         <a href="/extra%20documents/seminars/Lecture%201.pdf"
           target="_blank"
           rel="noopener noreferrer">Notes</a>
+
+        <figure class="paper-figure">
+          <img src="/images/phases equilibrium measure.png"
+            alt="Phase diagram for multiplicative averages of Plancherel partitions">
+            <figcaption>
+              The various phases of the  equilibrium measure.
+            </figcaption>
+        </figure>
       </li>
 
       <li>
