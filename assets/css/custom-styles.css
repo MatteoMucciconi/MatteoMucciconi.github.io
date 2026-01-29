@@ -107,7 +107,7 @@
 }
 
 .small-figure {
-  width: 220px;     /* controls size */
+  width: 280px;     /* controls size */
   margin: 0;
   text-align: center;
 }
@@ -134,7 +134,11 @@
 }
 
 .paper .paper-abstract .small-figure {
-  flex: 0 0 220px;
-  margin: 0;
+  flex: 0 0 280px;
 }
 
+@media (max-width: 700px) {
+  .paper .paper-abstract .small-figure {
+    flex: 0 0 100%;
+  }
+}
