@@ -74,7 +74,7 @@ permalink: /teaching/
 ## Reading Groups
 
 <div class="paper">
-  <h3 class="paper-title" onclick="toggleAbstract(this)">Airy Line Ensemble</h3>
+  <h3 class="paper-title" onclick="toggleAbstract(this)">Airy Line Ensemble (2025/2026)</h3>
   <div class="paper-abstract">
     <p>
       <ol>
