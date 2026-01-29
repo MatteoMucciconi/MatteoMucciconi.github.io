@@ -99,8 +99,6 @@
 
 
 
-
-
 .figure-row {
   display: flex;
   gap: 1rem;
@@ -125,3 +123,18 @@
   color: #555;
   margin-top: 0.4em;
 }
+
+.paper .paper-abstract .figure-row {
+  display: flex !important;
+  gap: 1rem;
+  margin-top: 0.8em;
+  align-items: flex-start;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.paper .paper-abstract .small-figure {
+  flex: 0 0 220px;
+  margin: 0;
+}
+
