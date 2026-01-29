@@ -69,6 +69,21 @@ permalink: /teaching/
   </div>
 </div>
 
+# Seminars
+
+## Reading Groups
+
+<div class="paper">
+  <h3 class="paper-title" onclick="toggleAbstract(this)">Airy Line Ensemble</h3>
+  <div class="paper-abstract">
+    <p>
+      <ol>
+        <li>Introduction: Gibbs measures on line ensembles, Brownian Gibbs property and statement of strong characterization of the parabolic Airy Line ensemble [Notes]()</li>
+        <li>The Gaussian Unitary Ensemble (GUE): the Ginibre formula for eigenvalue distribution, Hermite kernel, semicircle law and Airy point process. [Notes]()</li>
+      </ol>
+    </p>
+  </div>
+</div>
 
 <script>
   function toggleAbstract(element) {
