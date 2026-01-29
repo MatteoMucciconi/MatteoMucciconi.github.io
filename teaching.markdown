@@ -92,7 +92,7 @@ permalink: /teaching/
           <figure class="small-figure">
             <img src="/images/edgeScaling_IceModel.png"
               alt="Edge Scalng of the Ice Model">
-              <figcaption>A close up on the boundary of the frozen-liquid interface.</figcaption>
+              <figcaption>A close up on the frozen-liquid interface.</figcaption>
             </figure>
         </div>
         
