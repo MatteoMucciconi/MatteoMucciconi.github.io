@@ -99,24 +99,29 @@
 
 
 
+
+
+.figure-row {
+  display: flex;
+  gap: 1rem;
+  margin-top: 0.8em;
+  align-items: flex-start;
+}
+
 .small-figure {
-  margin-top: 1.5em;
+  width: 220px;     /* controls size */
+  margin: 0;
   text-align: center;
 }
 
 .small-figure img {
-  max-width: 40%;
-  max-height: 60vh;
-  background: white;
-  padding: 0.5em;
-  display: block;      
-  margin: 0 auto;     
+  width: 100%;
+  height: auto;
+  border-radius: 6px;
 }
 
-
 .small-figure figcaption {
-  font-size: 0.8em;
+  font-size: 0.75em;
   color: #555;
-  margin-top: 0.5em;
-  text-align: center;
+  margin-top: 0.4em;
 }
