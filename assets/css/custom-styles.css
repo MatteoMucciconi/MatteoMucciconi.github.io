@@ -107,7 +107,7 @@
 }
 
 .small-figure {
-  width: 150px;     /* controls size */
+  width: 220px;     /* controls size */
   margin: 0;
   text-align: center;
 }
@@ -134,7 +134,7 @@
 }
 
 .paper .paper-abstract .small-figure {
-  flex: 0 0 150px;
+  flex: 0 0 220px;
   margin: 0;
 }
 
