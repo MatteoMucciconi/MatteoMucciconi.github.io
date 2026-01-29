@@ -69,7 +69,6 @@ permalink: /teaching/
   </div>
 </div>
 
-# Seminars
 
 ## Reading Groups
 
@@ -79,12 +78,16 @@ permalink: /teaching/
     <ol>
       <li>
         Introduction: Gibbs measures on line ensembles, Brownian Gibbs property and statement of strong characterization of the parabolic Airy Line ensemble.
-        <a href="/extra%20documents/seminars/Lecture%201.pdf">Notes</a>
+        <a href="/extra%20documents/seminars/Lecture%201.pdf"
+          target="_blank"
+          rel="noopener noreferrer">Notes</a>
       </li>
 
       <li>
         The Gaussian Unitary Ensemble (GUE): the Ginibre formula for eigenvalue distribution, Hermite kernel, semicircle law and Airy point process.
-        <a href="/extra%20documents/seminars/Line%20ensemble-2.pdf">Notes</a>
+        <a href="/extra%20documents/seminars/Line%20ensemble-2.pdf"
+          target="_blank"
+          rel="noopener noreferrer">Notes</a>
       </li>
     </ol>
   </div>
