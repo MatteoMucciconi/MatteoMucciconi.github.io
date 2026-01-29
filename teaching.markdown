@@ -83,10 +83,10 @@ permalink: /teaching/
           rel="noopener noreferrer">Notes</a>
 
         <figure class="paper-figure">
-          <img src="/images/phases equilibrium measure.png"
+          <img src="/images/iceModel200.png"
             alt="Phase diagram for multiplicative averages of Plancherel partitions">
             <figcaption>
-              The various phases of the  equilibrium measure.
+              A sample of the ice model.
             </figcaption>
         </figure>
       </li>
