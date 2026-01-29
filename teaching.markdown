@@ -89,6 +89,15 @@ permalink: /teaching/
               A sample of the ice model.
             </figcaption>
         </figure>
+
+        <figure class="small-figure">
+          <img src="/images/iceModel200.png"
+            alt="Phase diagram for multiplicative averages of Plancherel partitions">
+            <figcaption>
+              A close up on the boundary of the frozen-liquid interface.
+            </figcaption>
+        </figure>
+        
       </li>
 
       <li>
