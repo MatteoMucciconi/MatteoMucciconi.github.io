@@ -85,13 +85,13 @@ permalink: /teaching/
         <div class="figure-row">
           <figure class="small-figure">
             <img src="/images/iceModel200.png"
-             alt="Phase diagram for multiplicative averages of Plancherel partitions">
+             alt="Ice Model">
             <figcaption>A sample of the ice model.</figcaption>
           </figure>
 
           <figure class="small-figure">
-            <img src="/images/iceModel200.png"
-              alt="Phase diagram for multiplicative averages of Plancherel partitions">
+            <img src="/images/edgeScaling_IceModel.png"
+              alt="Edge Scalng of the Ice Model">
               <figcaption>A close up on the boundary of the frozen-liquid interface.</figcaption>
             </figure>
         </div>
