@@ -105,10 +105,21 @@ permalink: /teaching/
           rel="noopener noreferrer">Notes</a> (by <a href="https://akshay-hegde-math.github.io"
           target="_blank"
           rel="noopener noreferrer">Akshay Hegde</a>)
+
+          <div class="figure-row">
+          <figure class="small-figure">
+            <img src="/images/semicircle%20GUE.png"
+             alt="Semicircle law GUE">
+            <figcaption>A screenshot from representing the semicircle law.</figcaption>
+          </figure>
+        </div>
       </li>
     </ol>
   </div>
 </div>
+
+
+
 
 <script>
   function toggleAbstract(element) {
