@@ -82,7 +82,7 @@ permalink: /teaching/
           target="_blank"
           rel="noopener noreferrer">Notes</a>
 
-        <figure class="paper-figure">
+        <figure class="small-figure">
           <img src="/images/iceModel200.png"
             alt="Phase diagram for multiplicative averages of Plancherel partitions">
             <figcaption>
