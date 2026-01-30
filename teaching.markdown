@@ -100,7 +100,7 @@ permalink: /teaching/
 
       <li>
         The Gaussian Unitary Ensemble (GUE): the Ginibre formula for eigenvalue distribution, Hermite kernel, semicircle law and Airy point process.
-        <a href="/extra%20documents/seminars/Line%20ensemble-2.pdf"
+        <a href="/extra%20documents/seminars/Line_ensemble2.pdf"
           target="_blank"
           rel="noopener noreferrer">Notes</a> (by <a href="https://akshay-hegde-math.github.io"
           target="_blank"
