@@ -117,7 +117,7 @@ permalink: /teaching/
 
       <li>
         Dyson's Brownian motion: definition
-        <a href="/extra%20documents/seminars/Lecture%201.pdf"
+        <a href="/extra%20documents/seminars/Lecture%203.pdf"
           target="_blank"
           rel="noopener noreferrer">Notes</a>
 
