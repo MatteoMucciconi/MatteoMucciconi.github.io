@@ -110,10 +110,27 @@ permalink: /teaching/
           <figure class="small-figure">
             <img src="/images/semicircle%20GUE.png"
              alt="Semicircle law GUE">
-            <figcaption>A screenshot from the "Random Matrix Theory" by J. Keating and L.P. Arguin representing the semicircle law.</figcaption>
+            <figcaption>A screenshot from "Random Matrix Theory" by J. Keating and L.P. Arguin representing the semicircle law.</figcaption>
           </figure>
         </div>
       </li>
+
+      <li>
+        Dyson's Brownian motion: definition
+        <a href="/extra%20documents/seminars/Lecture%201.pdf"
+          target="_blank"
+          rel="noopener noreferrer">Notes</a>
+
+        <div class="figure-row">
+          <figure class="small-figure">
+            <img src="/images/iceModel200.png"
+             alt="Ice Model">
+            <figcaption>A sample of a Dyson's Brownian bridge.</figcaption>
+          </figure>
+        </div>
+        
+      </li>
+      
     </ol>
   </div>
 </div>
