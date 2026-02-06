@@ -123,8 +123,8 @@ permalink: /teaching/
 
         <div class="figure-row">
           <figure class="small-figure">
-            <img src="/images/iceModel200.png"
-             alt="Ice Model">
+            <img src="/images/Dyson_Brownian_Bridge.png"
+             alt="Dyson Brownian Bridge">
             <figcaption>A sample of a Dyson's Brownian bridge.</figcaption>
           </figure>
         </div>
