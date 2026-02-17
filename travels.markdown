@@ -11,6 +11,7 @@ permalink: /travels/
 - July: Hong Kong, CHINA. Hong Kong Probability Workshop 2026
 - July: Long Island, USA. 4th Simons Math Summer Workshop: Algebraic methods in probability- July 6 – 24, 2026
 - May: Shanghai, CHINA. SASI Workshop at NYU Shanghai
+- Feb: Melbourne, AUSTRALIA.
 
 ### 2025
 
