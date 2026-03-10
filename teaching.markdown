@@ -130,17 +130,17 @@ permalink: /teaching/
         </div>
         
       </li>
-
+      
       <li>
         Height monotonicity coupling
-        <a href="/extra%20documents/seminars/Lecture%203.pdf"
+        <a href="/extra%20documents/seminars/Lecture%204.pdf"
           target="_blank"
           rel="noopener noreferrer">Notes</a>
       </li>
 
        <li>
         Gap monotonicity coupling
-        <a href="/extra%20documents/seminars/Lecture%203.pdf"
+        <a href="/extra%20documents/seminars/Lecture%205.pdf"
           target="_blank"
           rel="noopener noreferrer">Notes</a>
       </li>
