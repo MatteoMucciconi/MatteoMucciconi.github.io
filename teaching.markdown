@@ -144,6 +144,13 @@ permalink: /teaching/
           target="_blank"
           rel="noopener noreferrer">Notes</a>
       </li>
+
+      <li>
+        Proof overview
+        <a href="/extra%20documents/seminars/Lecture%206.pdf"
+          target="_blank"
+          rel="noopener noreferrer">Notes</a>
+      </li>
       
     </ol>
   </div>
