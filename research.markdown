@@ -15,7 +15,7 @@ permalink: /research/
   <div class="paper-abstract">
     <p>The Fomin local rules for Schensted column insertion can be seen as a two-lane box-ball system, in which a carrier moves particles forward or laterally.
     Running such two-lane dynamics in parallel on a periodic lattice gives rise to a two-dimensional generalization of the box-ball system, which we call the \emph{skew column RSK dynamics}.
-    Equivalently, this is a deterministic dynamics on pairs of skew semistandard Young tableaux $(P_t,Q_t)_{t \in \Z}$. 
+    Equivalently, this is a deterministic dynamics on pairs of skew semistandard Young tableaux $(P_t,Q_t)_{t \in \mathbb{Z}}$. 
     We prove that this dynamics exhibits solitonic behavior and construct an explicit bijection $(P,Q) \leftrightarrow (H_1,H_2,\kappa,\nu)$ that linearizes the time evolution.
     The resulting coordinates consist of two horizontally weak tableaux $H_1,H_2$ recording the asymptotic soliton data, integer riggings $\kappa$, and a weakly decreasing sequence of integers $\nu$.
     A key feature of the construction is an explicit projection from the skew column RSK dynamics to the classical box-ball system; under this projection, the rigging $\kappa$ is precisely the Kerov--Kirillov--Reshetikhin rigging of the associated box-ball configuration.
