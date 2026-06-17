@@ -24,7 +24,7 @@ permalink: /research/
     Finally, by taking generating functions in the linearizing coordinates, we obtain bijective proofs of Cauchy and Kawanaka--Littlewood-type identities for transformed Hall--Littlewood polynomials.</p>
 
   <figure class="paper-figure">
-    <img src="/images/scattering_line_ensembles.pdf"
+    <img src="/images/scattering_line_ensembles.png"
          alt="A visualization of the skew column RSK dynamics as an evolving ensemble of non-intersecting lattice paths.">
     <figcaption>
       A visualization of the skew column RSK dynamics as an evolving ensemble of non-intersecting lattice paths.
