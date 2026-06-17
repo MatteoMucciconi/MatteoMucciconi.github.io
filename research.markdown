@@ -7,6 +7,35 @@ permalink: /research/
 ## Papers
 
 <div class="paper">
+  <h3 class="paper-title" onclick="toggleAbstract(this)">Skew column RSK dynamics and the box-ball system</h3>
+  <p class="paper-authors">T. Imamura, M. Mucciconi, T. Sasamoto, T. Scrimshaw</p>
+  <p class="paper-journal">
+    <a href="https://arxiv.org/abs/2601.05164" target="_blank">arXiv preprint</a>
+  </p>
+  <div class="paper-abstract">
+    <p>The Fomin local rules for Schensted column insertion can be seen as a two-lane box-ball system, in which a carrier moves particles forward or laterally.
+    Running such two-lane dynamics in parallel on a periodic lattice gives rise to a two-dimensional generalization of the box-ball system, which we call the \emph{skew column RSK dynamics}.
+    Equivalently, this is a deterministic dynamics on pairs of skew semistandard Young tableaux $(P_t,Q_t)_{t \in \Z}$. 
+    We prove that this dynamics exhibits solitonic behavior and construct an explicit bijection $(P,Q) \leftrightarrow (H_1,H_2,\kappa,\nu)$ that linearizes the time evolution.
+    The resulting coordinates consist of two horizontally weak tableaux $H_1,H_2$ recording the asymptotic soliton data, integer riggings $\kappa$, and a weakly decreasing sequence of integers $\nu$.
+    A key feature of the construction is an explicit projection from the skew column RSK dynamics to the classical box-ball system; under this projection, the rigging $\kappa$ is precisely the Kerov--Kirillov--Reshetikhin rigging of the associated box-ball configuration.
+    Our proof uses two commuting affine crystal structures on pairs of skew tableaux and a novel connectivity theorem for distinguished subgraphs of tensor products of Kirillov--Reshetikhin crystals.
+    We also derive Greene-type formulas for the soliton lengths in terms of last-passage percolation on the associated cylindrical environment.
+    Finally, by taking generating functions in the linearizing coordinates, we obtain bijective proofs of Cauchy and Kawanaka--Littlewood-type identities for transformed Hall--Littlewood polynomials.</p>
+
+  <figure class="paper-figure">
+    <img src="/images/scattering_line_ensembles.pdf"
+         alt="A visualization of the skew column RSK dynamics as an evolving ensemble of non-intersecting lattice paths.">
+    <figcaption>
+      A visualization of the skew column RSK dynamics as an evolving ensemble of non-intersecting lattice paths.
+    </figcaption>
+  </figure>
+  
+  </div>
+  
+</div>
+
+<div class="paper">
   <h3 class="paper-title" onclick="toggleAbstract(this)">Multiplicative Averages of Plancherel Random Partitions: Elliptic Functions, Phase Transitions, and Applications</h3>
   <p class="paper-authors">M. Cafasso, M. Mucciconi, G. Ruzza</p>
   <p class="paper-journal">
