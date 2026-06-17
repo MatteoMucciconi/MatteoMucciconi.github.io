@@ -212,10 +212,18 @@ permalink: /research/
     <a href="https://pubs.aip.org/aip/jmp/article/64/8/083301/2908272" target="_blank">Seminaire Lotharingien de Combinatoire (FPSAC 2026 proceedings)--to appear</a>
   </p>
   <p>
-    <a href="/extra documents/papers/main.pdf" download>Download File</a>
+    <a href="/extra documents/papers/fpasc2026.pdf" download>Download File</a>
   </p>
   <div class="paper-abstract">
     <p>We introduce the periodic multi-layer polynuclear growth dynamics, a deterministic evolution of sequences of height function $(h_i(x,t))_{i\in \mathbb{Z}}$, where $x \in \mathbb{R}/\mathbb{Z}$ and $t\in \mathbb{R}$ is the time. This dynamics is integrable: it possesses solitionic behavior, it has a rich set of symmetries and can be reduced, through a projection to the box-ball system (BBS). The inverse scattering map is a generalization of Kerov--Kirillov--Reshetikhin, which linearizes the BBS dynamics. The action of the inverse scattering map on special classes of initial data yields bijective proofs of summation identities for transformed Hall--Littlewood polynomials. These have applications in the description of height distribution of growth processes.</p>
+
+    <figure class="paper-figure">
+    <img src="/images/scattering_PNG.png"
+         alt="A visualization of the scattering in the multi-layer PNG.">
+    <figcaption>
+      Snapshots of a periodic multi-layer PNG dynamics $\boldsymbol{h}(t_1), \boldsymbol{h}(t_2) , \boldsymbol{h}(t_3)$ at times $t_1<t_2<t_3$. In the first and third panel the configurations consist of three wave-like formations respectively of 1, 2 and 3 islands (i.e. pairs of up-jumps and down-jumps) well spaced from each other. In the central panel the wave-like formations are mixed.
+    </figcaption>
+  </figure>
   </div>
 </div>
 
