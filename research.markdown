@@ -209,7 +209,7 @@ permalink: /research/
   <h3 class="paper-title" onclick="toggleAbstract(this)">The periodic multi-layer polynuclear growth: Integrability and applications</h3>
   <p class="paper-authors">T. Imamura, M. Mucciconi, T. Sasamoto, T. Scrimshaw</p>
   <p class="paper-journal">
-    <a href="https://pubs.aip.org/aip/jmp/article/64/8/083301/2908272" target="_blank">Seminaire Lotharingien de Combinatoire (FPSAC 2026 proceedings)--to appear</a>
+    Seminaire Lotharingien de Combinatoire; FPSAC 2026 proceeding (to appear)
   </p>
   <p>
     <a href="/extra documents/papers/fpasc2026.pdf" download>Download File</a>
