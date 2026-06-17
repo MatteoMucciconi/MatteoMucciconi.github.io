@@ -206,6 +206,21 @@ permalink: /research/
 ## Proceedings
 
 <div class="paper">
+  <h3 class="paper-title" onclick="toggleAbstract(this)">The periodic multi-layer polynuclear growth: Integrability and applications</h3>
+  <p class="paper-authors">T. Imamura, M. Mucciconi, T. Sasamoto, T. Scrimshaw</p>
+  <p class="paper-journal">
+    <a href="https://pubs.aip.org/aip/jmp/article/64/8/083301/2908272" target="_blank">Seminaire Lotharingien de Combinatoire (FPSAC 2026 proceedings)--to appear</a>
+  </p>
+  <p>
+    <a href="/extra documents/papers/main.pdf" download>Download File</a>
+  </p>
+  <div class="paper-abstract">
+    <p>We introduce the periodic multi-layer polynuclear growth dynamics, a deterministic evolution of sequences of height function $(h_i(x,t))_{i\in \mathbb{Z}}$, where $x \in \mathbb{R}/\mathbb{Z}$ and $t\in \mathbb{R}$ is the time. This dynamics is integrable: it possesses solitionic behavior, it has a rich set of symmetries and can be reduced, through a projection to the box-ball system (BBS). The inverse scattering map is a generalization of Kerov--Kirillov--Reshetikhin, which linearizes the BBS dynamics. The action of the inverse scattering map on special classes of initial data yields bijective proofs of summation identities for transformed Hall--Littlewood polynomials. These have applications in the description of height distribution of growth processes.</p>
+  </div>
+</div>
+
+
+<div class="paper">
   <h3 class="paper-title" onclick="toggleAbstract(this)">New approach to KPZ models through free fermions at positive temperature</h3>
   <p class="paper-authors">T.Imamura, M. Mucciconi, T.Sasamoto</p>
   <p class="paper-journal">
